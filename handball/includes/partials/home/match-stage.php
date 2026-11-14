@@ -29,7 +29,7 @@ $matches = data('matches');
                 </span>
                 <span class="match-stage__versus"><span aria-hidden="true">vs</span><span class="visually-hidden">gegen</span></span>
                 <span class="match-stage__team match-stage__team--guest">
-                    <?= media(null, 'team-crest', 'Wappen von ' . $fixture['opponent'], ['class' => 'match-stage__crest', 'loading' => 'eager']) ?>
+                    <?= media(null, 'team-crest', 'Wappen von ' . $fixture['opponent'], ['class' => 'match-stage__crest', 'loading' => 'eager', 'decorative' => true]) ?>
                     <span><?= e($fixture['opponent']) ?></span>
                 </span>
             </h2>

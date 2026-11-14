@@ -127,6 +127,7 @@ function training_week(array $teams): array
             return [$a['start'], $order[$a['team']['slug']]] <=> [$b['start'], $order[$b['team']['slug']]];
         });
     }
+    unset($sessions);
 
     return $week;
 }

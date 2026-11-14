@@ -1,6 +1,7 @@
 /* Fixed-ratio image frames (Lastenheft PH-08). */
 .media {
   position: relative;
+  display: block;
   overflow: hidden;
   background: var(--color-surface);
 }

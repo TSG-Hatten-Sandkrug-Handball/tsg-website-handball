@@ -14,7 +14,6 @@ function organization_schema(): array
         'sport' => 'Handball',
         'url' => absolute_url(),
         'logo' => SITE_ORIGIN . url('assets/img/tsg-crest.png'),
-        'email' => DEPARTMENT_EMAIL,
         'foundingDate' => '1968',
         'address' => [
             '@type' => 'PostalAddress',

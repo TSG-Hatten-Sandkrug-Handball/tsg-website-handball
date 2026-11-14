@@ -152,9 +152,10 @@ function media(?string $photo, string $kind, string $alt, array $options = []): 
     $loading = $options['loading'] ?? 'lazy';
     $class = 'media media--' . $kind . (isset($options['class']) ? ' ' . $options['class'] : '');
 
-    return '<div class="' . e($class) . '"><img class="media__image" src="' . e($src) . '" alt="' . e($alt) . '"'
+    // A span keeps the markup valid inside headings and links.
+    return '<span class="' . e($class) . '"><img class="media__image" src="' . e($src) . '" alt="' . e($alt) . '"'
         . ' width="' . $placeholder['width'] . '" height="' . $placeholder['height'] . '"'
-        . ' loading="' . e($loading) . '" decoding="async"></div>';
+        . ' loading="' . e($loading) . '" decoding="async"></span>';
 }
 
 function format_file_size(int $bytes): string
@@ -176,7 +177,9 @@ function sort_key(string $name): string
     $parts = explode(' ', $name);
     $last = end($parts);
 
-    return strtr(mb_strtolower($last . ' ' . $name), ['ä' => 'a', 'ö' => 'o', 'ü' => 'u', 'ß' => 'ss']);
+    $umlauts = ['ä' => 'a', 'ö' => 'o', 'ü' => 'u', 'Ä' => 'a', 'Ö' => 'o', 'Ü' => 'u', 'ß' => 'ss'];
+
+    return strtolower(strtr($last . ' ' . $name, $umlauts));
 }
 
 function json_ld(array $data): string
