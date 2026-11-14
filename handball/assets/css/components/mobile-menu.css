@@ -1,0 +1,102 @@
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  overflow-y: auto;
+  background: var(--color-white);
+}
+
+.mobile-menu[open],
+.mobile-menu:target {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: var(--header-height);
+  padding-inline: var(--gutter);
+  border-bottom: var(--border);
+}
+
+.mobile-menu__close {
+  display: inline-grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-text);
+  color: var(--color-white);
+}
+
+.mobile-menu__close:hover {
+  color: var(--color-white);
+  background: var(--color-brand-dark);
+}
+
+.mobile-menu__close .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.mobile-menu__nav {
+  padding-inline: var(--gutter);
+}
+
+.mobile-menu__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 3.5rem;
+  padding-block: var(--space-2);
+  border-bottom: var(--border);
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 1.4rem + 1.5vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.mobile-menu__link[aria-current="page"],
+.mobile-menu__link:hover {
+  color: var(--color-brand);
+}
+
+.mobile-menu__arrow {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--color-brand);
+  transition: transform var(--duration-fast) var(--ease);
+}
+
+.mobile-menu__link:hover .mobile-menu__arrow {
+  transform: translateX(3px);
+}
+
+.mobile-menu__actions {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: auto;
+  padding: var(--space-8) var(--gutter);
+}
+
+.mobile-menu__actions .button--secondary {
+  border-color: var(--color-brand);
+  color: var(--color-brand);
+}
+
+@media (min-width: 43.75em) {
+  .mobile-menu:target {
+    display: none;
+  }
+}

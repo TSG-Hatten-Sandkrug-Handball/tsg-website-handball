@@ -1,0 +1,36 @@
+<?php
+// Partners and sponsors in display order. 'logo' is a path below /handball/;
+// until logos are released, the name is shown (Lastenheft UE-07).
+
+return [
+    ['name' => 'KoruMed', 'url' => 'https://www.koru-med.de', 'logo' => null],
+    ['name' => 'Jonah Linne', 'url' => 'https://www.jonahlinne.com', 'logo' => null],
+    ['name' => 'Schwäbisch Hall', 'url' => 'https://www.schwaebisch-hall.de/bausparberater/norman.schuler', 'logo' => null],
+    ['name' => 'Optik Team', 'url' => 'https://www.facebook.com/p/Optik-team-100041374243868/', 'logo' => null],
+    ['name' => 'Der Dorfbäcker', 'url' => 'https://stadtm.de/Hatten/listing/baeckerei-der-dorfbaecker/', 'logo' => null],
+    ['name' => 'Zum Pfefferkorn', 'url' => 'https://www.zum-pfefferkorn.de', 'logo' => null],
+    ['name' => 'Partyservice Gabriel', 'url' => 'https://www.partyservice-gabriel.de', 'logo' => null],
+    ['name' => 'Hof Stolle', 'url' => 'https://www.hofstolle.de', 'logo' => null],
+    ['name' => 'Auto Mönnich', 'url' => 'https://auto-moennich.chayns.site', 'logo' => null],
+    ['name' => 'Zum Deutschen Hause', 'url' => 'https://zum-deutschen-hause.de', 'logo' => null],
+    ['name' => 'Hanken Apotheken', 'url' => 'https://hankens-apotheken.de', 'logo' => null],
+    ['name' => 'Böning Ship Automation', 'url' => 'https://www.karriere-boening.com/karriere/', 'logo' => null],
+    ['name' => 'Meistergärtner Meiser', 'url' => 'https://meistergaertner-meiser.de', 'logo' => null],
+    ['name' => 'EWE', 'url' => 'https://www.ewe.de', 'logo' => null],
+    ['name' => 'CS Energiesysteme', 'url' => 'https://www.cs-energiesysteme.de', 'logo' => null],
+    ['name' => 'Söffge', 'url' => 'https://www.soeffge.de/', 'logo' => null],
+    ['name' => 'Raiffeisen Hatten-Huntlosen', 'url' => 'http://www.rwghatten-huntlosen.de', 'logo' => null],
+    ['name' => 'van Döllen', 'url' => 'https://www.van-doellen.de/', 'logo' => null],
+    ['name' => 'Kuper Physiotherapie', 'url' => 'http://www.kuper-physiotherapie.de/', 'logo' => null],
+    ['name' => 'Bruno', 'url' => 'https://bruno-ol.de/', 'logo' => null],
+    ['name' => 'K+P Logistik', 'url' => 'http://www.kup-logistik.de/', 'logo' => null],
+    ['name' => 'Pollmann-Renken', 'url' => 'https://www.pollmann-renken.de/', 'logo' => null],
+    ['name' => 'Felsmalerei', 'url' => 'https://www.felsmalerei.net/', 'logo' => null],
+    ['name' => 'Swatt Label Immobilien', 'url' => 'http://www.swattlabelimmobilien.de', 'logo' => null],
+    ['name' => 'Bärenstarke Umzüge', 'url' => 'http://www.baerenstarke-umzuege.de/', 'logo' => null],
+    ['name' => 'LzO', 'url' => 'https://www.lzo.com/de/home.html', 'logo' => null],
+    ['name' => 'Öffentliche Oldenburg', 'url' => 'https://www.oeffentlicheoldenburg.de/nikolas.lienemann', 'logo' => null],
+    ['name' => 'Auto Wolf', 'url' => 'http://www.wolf-sandkrug.de/', 'logo' => null],
+    ['name' => 'Ansgari-Apotheke', 'url' => 'https://ansgari-apotheke.de/', 'logo' => null],
+    ['name' => 'holidate', 'url' => 'https://holidate.reisen', 'logo' => null],
+];

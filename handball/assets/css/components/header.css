@@ -1,0 +1,174 @@
+.skip-link {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  z-index: 100;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-brand);
+  color: var(--color-white);
+  font-weight: 700;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--color-header-bg);
+  border-bottom: var(--border);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.site-header__inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "brand toggle";
+  align-items: center;
+  gap: var(--space-4);
+  min-height: var(--header-height);
+}
+
+.brand {
+  grid-area: brand;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--touch-target);
+  color: var(--color-brand);
+  text-decoration: none;
+}
+
+.brand__crest {
+  width: 2.5rem;
+  height: auto;
+}
+
+.brand__text {
+  display: grid;
+  line-height: 1.1;
+}
+
+.brand__name {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.brand__claim {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.main-nav,
+.site-header__cta {
+  display: none;
+}
+
+.menu-toggle {
+  grid-area: toggle;
+  display: inline-grid;
+  place-items: center;
+  width: var(--touch-target);
+  height: var(--touch-target);
+  background: var(--color-brand);
+  color: var(--color-white);
+}
+
+.menu-toggle:hover {
+  background: var(--color-brand-dark);
+  color: var(--color-white);
+}
+
+.menu-toggle .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--space-5);
+}
+
+.main-nav__link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--touch-target);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Underline grows in from the left on hover (G-06) and stays for the active item (G-04). */
+.main-nav__link::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0.45rem;
+  height: 2px;
+  background: var(--color-brand);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration) var(--ease);
+}
+
+.main-nav__link:hover {
+  color: var(--color-brand);
+}
+
+.main-nav__link:hover::after,
+.main-nav__link[aria-current]::after {
+  transform: scaleX(1);
+}
+
+.main-nav__link[aria-current] {
+  color: var(--color-brand);
+}
+
+/* Tablet: navigation moves to a second row so all nine items stay visible. */
+@media (min-width: 43.75em) {
+  .site-header__inner {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "brand cta"
+      "nav nav";
+    row-gap: 0;
+    padding-top: var(--space-3);
+  }
+
+  .main-nav {
+    grid-area: nav;
+    display: block;
+  }
+
+  .site-header__cta {
+    grid-area: cta;
+    display: inline-flex;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 78em) {
+  .site-header__inner {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "brand nav cta";
+    gap: var(--space-8);
+    padding-top: 0;
+  }
+
+  .main-nav__list {
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: var(--space-5);
+  }
+}

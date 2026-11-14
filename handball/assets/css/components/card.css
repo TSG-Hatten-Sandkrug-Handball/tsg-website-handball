@@ -1,0 +1,89 @@
+/* Square cards with a 1px border, no rounded corners (Lastenheft LA-02). */
+.card {
+  position: relative;
+  display: grid;
+  gap: var(--space-2);
+  align-content: start;
+  padding: var(--space-5) var(--space-6);
+  background: var(--color-white);
+  border: var(--border);
+}
+
+.card--interactive {
+  transition: transform var(--duration) var(--ease), box-shadow var(--duration) var(--ease);
+}
+
+.card--interactive:hover {
+  transform: translateY(var(--lift));
+  box-shadow: var(--shadow-hover);
+}
+
+/* Makes the whole card clickable through the link inside it. */
+.card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.card__title {
+  font-size: var(--text-md);
+  color: var(--color-brand);
+}
+
+.card__title--display {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card__meta {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.card__figure {
+  font-size: var(--text-figure);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-brand);
+}
+
+.card--brand {
+  background: var(--color-brand);
+  border-color: var(--color-brand);
+  color: var(--color-brand-lighter);
+}
+
+.card--brand .card__title,
+.card--brand h2,
+.card--brand h3 {
+  color: var(--color-white);
+}
+
+.card--brand .card__meta {
+  color: var(--color-brand-lighter);
+}
+
+.card--brand a {
+  color: var(--color-brand-lighter);
+}
+
+.card--dashed {
+  padding: var(--space-8) var(--space-6);
+  border-style: dashed;
+}
+
+.card__arrow {
+  color: var(--color-brand);
+  transition: transform var(--duration-fast) var(--ease);
+}
+
+.card--interactive:hover .card__arrow {
+  transform: translateX(3px);
+}

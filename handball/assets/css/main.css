@@ -1,0 +1,37 @@
+/* Entry point. @layer fixes the cascade order, so later layers win without
+   specificity tricks. Add new components to the components block. */
+@layer tokens, base, layout, components, utilities;
+
+@import url("tokens.css") layer(tokens);
+@import url("base.css") layer(base);
+@import url("layout.css") layer(layout);
+
+@import url("components/icon.css") layer(components);
+@import url("components/button.css") layer(components);
+@import url("components/tag.css") layer(components);
+@import url("components/header.css") layer(components);
+@import url("components/mobile-menu.css") layer(components);
+@import url("components/footer.css") layer(components);
+@import url("components/page-hero.css") layer(components);
+@import url("components/card.css") layer(components);
+@import url("components/media.css") layer(components);
+@import url("components/row-list.css") layer(components);
+@import url("components/match-stage.css") layer(components);
+@import url("components/news.css") layer(components);
+@import url("components/fixtures.css") layer(components);
+@import url("components/league-table.css") layer(components);
+@import url("components/tile.css") layer(components);
+@import url("components/cta-band.css") layer(components);
+@import url("components/partners.css") layer(components);
+@import url("components/filter.css") layer(components);
+@import url("components/team-card.css") layer(components);
+@import url("components/training-week.css") layer(components);
+@import url("components/roster.css") layer(components);
+@import url("components/person.css") layer(components);
+@import url("components/pagination.css") layer(components);
+@import url("components/stats.css") layer(components);
+@import url("components/article.css") layer(components);
+@import url("components/org-chart.css") layer(components);
+@import url("components/side-panel.css") layer(components);
+
+@import url("utilities.css") layer(utilities);

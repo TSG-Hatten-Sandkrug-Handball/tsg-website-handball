@@ -1,0 +1,31 @@
+/* Icons are separate SVG files used as masks, so they take the current text
+   colour (Lastenheft IC-01). Icons: Lucide, ISC licence. */
+.icon {
+  display: inline-block;
+  flex: none;
+  width: 1.25em;
+  height: 1.25em;
+  background-color: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+}
+
+.icon--menu { --icon: url("../../icons/menu.svg"); }
+.icon--close { --icon: url("../../icons/close.svg"); }
+.icon--arrow-right { --icon: url("../../icons/arrow-right.svg"); }
+.icon--arrow-left { --icon: url("../../icons/arrow-left.svg"); }
+.icon--check { --icon: url("../../icons/check.svg"); }
+.icon--org-chart { --icon: url("../../icons/org-chart.svg"); }
+.icon--crown { --icon: url("../../icons/crown.svg"); }
+.icon--layers { --icon: url("../../icons/layers.svg"); }
+.icon--coins { --icon: url("../../icons/coins.svg"); }
+.icon--users { --icon: url("../../icons/users.svg"); }
+.icon--whistle { --icon: url("../../icons/whistle.svg"); }
+.icon--megaphone { --icon: url("../../icons/megaphone.svg"); }
+.icon--heart { --icon: url("../../icons/heart.svg"); }
+.icon--handshake { --icon: url("../../icons/handshake.svg"); }
+.icon--shield { --icon: url("../../icons/shield.svg"); }
+.icon--lightbulb { --icon: url("../../icons/lightbulb.svg"); }
+.icon--download { --icon: url("../../icons/download.svg"); }
+.icon--external-link { --icon: url("../../icons/external-link.svg"); }
+.icon--mail { --icon: url("../../icons/mail.svg"); }

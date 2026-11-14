@@ -1,0 +1,96 @@
+/* Design tokens. Every colour, size and duration of the site lives here.
+   Colours follow the Lastenheft (chapter 7.1). Breakpoints cannot be custom
+   properties inside media queries, so they are documented here and used as
+   literals: 43.75em (~700 px, mobile/desktop switch) and 64em (~1024 px). */
+
+:root {
+  /* Colours */
+  --color-brand: #303881;
+  --color-brand-dark: #232a66;
+  --color-brand-light: #c7cbf0;
+  --color-brand-lighter: #dfe2f7;
+  --color-text: #101828;
+  /* #6A7282 from the design is darkened slightly so small text keeps 4.5:1
+     on the light grey surface (WCAG AA, Lastenheft BF-02). */
+  --color-muted: #636b7a;
+  --color-surface: #f3f4f6;
+  --color-line: #e5e7eb;
+  --color-white: #fff;
+  --color-accent-female: #d97706;
+  --color-win-bg: #dcfce7;
+  --color-win-text: #166534;
+  --color-loss-bg: #fee2e2;
+  --color-loss-text: #b91c1c;
+  --color-header-bg: rgb(255 255 255 / 0.92);
+  --color-overlay: rgb(16 24 40 / 0.55);
+  --color-line-on-dark: rgb(255 255 255 / 0.18);
+
+  /* Typography */
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: Calibri, Carlito, "Segoe UI", Roboto, sans-serif;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-lead: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem);
+  --text-h1: clamp(2.25rem, 1.6rem + 2.6vw, 3.5rem);
+  --text-h1-xl: clamp(2.75rem, 1.6rem + 4.6vw, 5rem);
+  --text-h2: clamp(1.875rem, 1.45rem + 1.7vw, 2.75rem);
+  --text-h3: clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem);
+  --text-figure: clamp(1.75rem, 1.5rem + 1vw, 2.25rem);
+
+  --leading-tight: 0.95;
+  --leading-snug: 1.25;
+  --leading-body: 1.55;
+  --tracking-kicker: 0.14em;
+  --measure: 75ch;
+  --measure-intro: 62ch;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --section-space: clamp(3rem, 2rem + 4vw, 4.5rem);
+
+  /* Layout */
+  --container-max: 77.5rem;
+  --gutter: 1.25rem;
+  --header-height: 4rem;
+  --touch-target: 2.75rem;
+  --button-height: 3rem;
+  --panel-width: 30rem;
+  --border: 1px solid var(--color-line);
+  --accent-bar: 0.25rem;
+
+  /* Effects */
+  --shadow-hover: 0 0.5rem 1.25rem rgb(16 24 40 / 0.08);
+  --lift: -2px;
+  --duration-fast: 150ms;
+  --duration: 250ms;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (min-width: 43.75em) {
+  :root {
+    --gutter: 2rem;
+    --header-height: 4.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration: 0ms;
+    --lift: 0px;
+  }
+}

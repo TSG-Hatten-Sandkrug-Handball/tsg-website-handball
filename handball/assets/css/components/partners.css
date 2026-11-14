@@ -1,0 +1,47 @@
+/* Two columns on phones, six on desktop (Lastenheft UE-07). */
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: var(--border);
+  border-left: var(--border);
+}
+
+@media (min-width: 43.75em) {
+  .partner-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64em) {
+  .partner-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+.partner-grid__item {
+  border-right: var(--border);
+  border-bottom: var(--border);
+}
+
+.partner-grid__link {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  min-height: 4.5rem;
+  padding: var(--space-3);
+  font-size: var(--text-sm);
+  text-align: center;
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease), background-color var(--duration-fast) var(--ease);
+}
+
+.partner-grid__link:hover {
+  background: var(--color-surface);
+  color: var(--color-brand);
+}
+
+.partner-grid__logo {
+  max-height: 3rem;
+  width: auto;
+}

@@ -1,0 +1,49 @@
+/* Small labels (Lastenheft LA-06): home, away, win, loss, topic, league. */
+.tag {
+  display: inline-block;
+  padding: 0.125rem var(--space-2);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-white);
+  background: var(--color-brand);
+  white-space: nowrap;
+}
+
+.tag--away {
+  background: var(--color-muted);
+}
+
+.tag--win {
+  background: var(--color-win-bg);
+  color: var(--color-win-text);
+}
+
+.tag--loss {
+  background: var(--color-loss-bg);
+  color: var(--color-loss-text);
+}
+
+.tag--soft {
+  background: var(--color-brand-lighter);
+  color: var(--color-brand);
+}
+
+.tag--uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.kicker {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: var(--tracking-kicker);
+  text-transform: uppercase;
+  color: var(--color-brand);
+}
+
+.section--brand .kicker,
+.section--brand-dark .kicker,
+.section--dark .kicker {
+  color: var(--color-brand-light);
+}

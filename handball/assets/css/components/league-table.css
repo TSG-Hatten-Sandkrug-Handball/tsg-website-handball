@@ -1,0 +1,46 @@
+.league-table {
+  background: var(--color-white);
+  border: var(--border);
+  font-size: var(--text-sm);
+}
+
+.league-table th,
+.league-table td {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: var(--border);
+  vertical-align: top;
+}
+
+.league-table thead th {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-muted);
+}
+
+.league-table abbr {
+  text-decoration: none;
+}
+
+.league-table__team {
+  width: 100%;
+  font-weight: 400;
+}
+
+.league-table__number {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.league-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+/* Own team highlighted (UE-04). */
+.league-table__own > * {
+  background: var(--color-brand);
+  color: var(--color-white);
+  font-weight: 700;
+}

@@ -1,0 +1,12 @@
+.cta-band__inner {
+  display: grid;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+@media (min-width: 64em) {
+  .cta-band__inner {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: var(--space-12);
+  }
+}
