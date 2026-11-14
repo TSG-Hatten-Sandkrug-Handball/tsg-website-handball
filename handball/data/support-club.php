@@ -3,6 +3,8 @@
 
 return [
     'email' => SUPPORT_CLUB_EMAIL,
+    // Grant applications go to the Förderkreis mailbox named on the previous page.
+    'application_email' => 'info@foerderkreis-tsg2000.de',
     'options' => [
         ['title' => 'Mitglied werden', 'amount' => '24 €', 'note' => 'im Jahr'],
         ['title' => 'Feld pachten', 'amount' => '25 €', 'note' => 'je Feld und Jahr'],

@@ -106,7 +106,7 @@ function home_match_schema(array $fixture): array
         'organizer' => ['@id' => absolute_url('#organization')],
         'offers' => [
             '@type' => 'Offer',
-            'price' => '6.00',
+            'price' => number_format(data('tickets')['day'], 2, '.', ''),
             'priceCurrency' => 'EUR',
             'url' => absolute_url('heimspiele/'),
         ],

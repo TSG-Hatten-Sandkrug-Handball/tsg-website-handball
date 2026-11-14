@@ -43,7 +43,7 @@ return [
     'department_rules' => ['label' => 'Abteilungsordnung', 'url' => $fileadmin . 'sportarten/Handball/2020_07_14_Abteilungsordnung_Handball.pdf', 'format' => 'PDF', 'size' => 323189],
     'kids_cup' => [
         ['label' => 'Turniereinladung 2026', 'url' => $fileadmin . 'sportarten/Handball/Turnier/2026/Turniereinladung_2026-1.pdf', 'format' => 'PDF', 'size' => 333893],
-        ['label' => 'Anmeldung 2026', 'url' => $fileadmin . 'sportarten/Handball/Turnier/2026/Anmeldung_2026.pdf', 'format' => 'PDF', 'size' => 275626],
+        ['label' => 'Anmeldung 2026', 'registration_form' => true, 'url' => $fileadmin . 'sportarten/Handball/Turnier/2026/Anmeldung_2026.pdf', 'format' => 'PDF', 'size' => 275626],
         ['label' => 'Turnierbestimmungen', 'url' => $fileadmin . 'sportarten/Handball/Turnier/2026/Turnierbestimmungen_Neuversion.pdf', 'format' => 'PDF', 'size' => 432886],
         ['label' => 'Vollmacht Kautionen', 'url' => $fileadmin . 'sportarten/Handball/Turnier/2025/Vollmacht-Teilnahme-und-Schiedsrichterkaution.pdf', 'format' => 'PDF', 'size' => 102891],
     ],

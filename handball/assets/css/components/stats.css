@@ -1,1 +1,97 @@
-/* stats */
+/* Key figures on /abteilung (Lastenheft AB-02). */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+  gap: var(--space-6);
+}
+
+.stats__item {
+  display: grid;
+  gap: var(--space-1);
+  padding-top: var(--space-4);
+  border-top: 2px solid var(--color-brand);
+}
+
+.stats__value {
+  font-size: var(--text-figure);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-brand);
+}
+
+.stats__label {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+/* Price and support cards (Heimspiele, Förderkreis). */
+.price-card {
+  padding: var(--space-6);
+}
+
+.price-card__title {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-brand);
+}
+
+.price-card__title--display {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  text-transform: uppercase;
+}
+
+/* Fee summary on /kids-cup (KC-03). */
+.fee-box {
+  display: grid;
+  gap: var(--space-4);
+  align-content: start;
+  padding: var(--space-6);
+  background: var(--color-surface);
+}
+
+.fee-box__title {
+  font-size: var(--text-xl);
+}
+
+.fee-box__amount {
+  font-weight: 700;
+}
+
+/* Grant application box on /foerderkreis (FK-03). */
+.apply-box {
+  gap: var(--space-4);
+  padding: var(--space-8);
+}
+
+.apply-box__title {
+  font-size: var(--text-xl);
+}
+
+.apply-box__steps {
+  display: grid;
+  gap: var(--space-1);
+  padding-left: var(--space-5);
+  font-size: var(--text-sm);
+}
+
+/* Dark band with achievements on /abteilung (AB-03). */
+.achievements {
+  display: grid;
+}
+
+.achievements__item {
+  padding-block: var(--space-4);
+  border-bottom: 1px solid var(--color-line-on-dark);
+}
+
+.address {
+  font-style: normal;
+  font-size: var(--text-lg);
+}
+
+.list-heading--small {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  text-transform: none;
+}
