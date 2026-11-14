@@ -1,1 +1,124 @@
-/* row-list */
+/* Lists of rows separated by lines: schedules, fees, downloads, programmes. */
+.row-list {
+  display: grid;
+}
+
+.row-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-1) var(--space-4);
+  min-height: 3.25rem;
+  padding-block: var(--space-3);
+  border-bottom: var(--border);
+}
+
+.row-list__label {
+  min-width: 0;
+}
+
+.row-list__value {
+  font-weight: 700;
+  color: var(--color-brand);
+  text-align: right;
+}
+
+.row-list__meta {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  text-align: right;
+}
+
+.row-list--total .row-list__item:last-child {
+  font-weight: 700;
+}
+
+.row-list--on-brand .row-list__item {
+  border-color: var(--color-line-on-dark);
+}
+
+/* Download rows: the whole row is the link. */
+.row-list__link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-1) var(--space-4);
+  width: 100%;
+  min-height: 3.25rem;
+  padding: var(--space-3) var(--space-2);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: background-color var(--duration-fast) var(--ease);
+}
+
+.row-list__link:hover {
+  background: var(--color-surface);
+  color: var(--color-brand);
+}
+
+.row-list__item:has(.row-list__link) {
+  padding-block: 0;
+}
+
+.list-heading {
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--color-brand);
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-brand);
+}
+
+/* Upcoming events with a date tile (Lastenheft TE-01). */
+.event-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.event {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: var(--space-4);
+  align-items: center;
+  padding: var(--space-4);
+  border: var(--border);
+}
+
+.event__date {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  background: var(--color-brand);
+  color: var(--color-white);
+  line-height: 1;
+}
+
+.event__day {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+
+.event__month {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+}
+
+/* Simple bullet-free list with check icons. */
+.check-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.check-list__item {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.check-list__item .icon {
+  margin-top: 0.15em;
+  color: var(--color-brand);
+}

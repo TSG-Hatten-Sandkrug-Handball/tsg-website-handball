@@ -43,6 +43,12 @@ function partial(string $name, array $vars = []): void
     require INCLUDES_DIR . '/partials/' . $name . '.php';
 }
 
+function render_not_found(): void
+{
+    require APP_ROOT . '/404.php';
+    exit;
+}
+
 function link_url(string $key): string
 {
     return data('links')[$key];

@@ -1,1 +1,23 @@
-/* article */
+.article__title {
+  max-width: 24ch;
+}
+
+.article__layout {
+  display: grid;
+  gap: var(--space-8);
+  max-width: 50rem;
+}
+
+.article__lead {
+  font-size: var(--text-lead);
+  font-weight: 700;
+}
+
+.article__body {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.article__gallery {
+  margin-top: var(--space-4);
+}
