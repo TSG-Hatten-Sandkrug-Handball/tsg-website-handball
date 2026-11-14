@@ -1,5 +1,5 @@
-# Builds the site on every push to main and publishes it as a preview on
-# GitHub Pages. The preview is marked noindex so search engines ignore it.
+# Publishes the site/ folder as a preview on GitHub Pages on every push to main.
+# There is no build step: the files are deployed exactly as they are in the repo.
 name: Preview on GitHub Pages
 
 on:
@@ -17,32 +17,16 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      # PHP is preinstalled on GitHub's Ubuntu runners.
-      - name: Build static site
-        run: |
-          php --version
-          php build.php \
-            --origin="https://${{ github.repository_owner }}.github.io" \
-            --base="/${{ github.event.repository.name }}" \
-            --noindex
-
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
       - id: deployment
         uses: actions/deploy-pages@v4
