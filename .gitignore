@@ -6,3 +6,6 @@ Thumbs.db
 
 # Local environment and secrets
 .env*
+
+# Generated site
+dist/

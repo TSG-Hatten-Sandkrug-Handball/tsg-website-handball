@@ -1,0 +1,35 @@
+/* Filter links (news topics, team groups). The active one is filled. */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
+}
+
+.filter__option {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--touch-target);
+  padding: var(--space-2) var(--space-4);
+  border: 0;
+  background: var(--color-surface);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: background-color var(--duration-fast) var(--ease), color var(--duration-fast) var(--ease);
+}
+
+.filter__option:hover {
+  background: var(--color-line);
+  color: var(--color-text);
+}
+
+.filter__option[aria-current="page"] {
+  background: var(--color-brand);
+  color: var(--color-white);
+}
+
+.filter__option:active {
+  transform: scale(0.98);
+}
