@@ -1,1 +1,67 @@
-/* person */
+.person-card {
+  height: 100%;
+}
+
+.person-card__name {
+  font-size: var(--text-md);
+  color: var(--color-brand);
+}
+
+.person-card__email {
+  margin-top: auto;
+  padding-top: var(--space-2);
+  font-size: var(--text-sm);
+}
+
+.person-card__email .link {
+  display: inline-block;
+  padding-block: var(--space-2);
+  word-break: break-all;
+}
+
+.person-card--display .person-card__name {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.person-card--brand {
+  padding: var(--space-6);
+  background: var(--color-brand);
+  border-color: var(--color-brand);
+}
+
+.person-card--brand .person-card__name {
+  font-size: var(--text-xl);
+  color: var(--color-white);
+}
+
+.person-card--brand .card__meta,
+.person-card--brand .link {
+  color: var(--color-brand-lighter);
+}
+
+/* Round photo with name and function (organisation chart, panel). */
+.person-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.person-row__photo {
+  flex: none;
+  width: 2.75rem;
+}
+
+.person-row__name {
+  font-weight: 700;
+  font-size: var(--text-sm);
+}
+
+.person-row__function {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}

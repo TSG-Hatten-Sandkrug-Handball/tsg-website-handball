@@ -1,1 +1,30 @@
-/* roster */
+.roster {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+  gap: 0 var(--space-6);
+}
+
+.roster__player {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  column-gap: var(--space-2);
+  padding-block: var(--space-3);
+  border-bottom: var(--border);
+}
+
+.roster__number {
+  grid-row: span 2;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-brand);
+}
+
+.roster__name {
+  font-weight: 700;
+}
+
+.roster__position {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}

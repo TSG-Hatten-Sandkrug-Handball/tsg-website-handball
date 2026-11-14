@@ -1,1 +1,62 @@
-/* training-week */
+/* Weekly training grid (Lastenheft MA-04): one block per day on phones,
+   five columns from tablet width. */
+.training-week {
+  display: grid;
+  gap: var(--space-8);
+}
+
+@media (min-width: 64em) {
+  .training-week {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: var(--space-3);
+  }
+}
+
+.training-week__heading {
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 2px solid var(--color-brand);
+  font-size: var(--text-base);
+  font-weight: 700;
+}
+
+.training-week__list {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.training-session {
+  display: grid;
+  padding: var(--space-3);
+  border-left: var(--accent-bar) solid var(--color-brand);
+  background: var(--color-white);
+  font-size: var(--text-sm);
+  line-height: 1.35;
+}
+
+.training-session--senior {
+  border-left-color: var(--color-text);
+}
+
+.training-session--female {
+  border-left-color: var(--color-accent-female);
+}
+
+.training-session__time {
+  font-weight: 700;
+}
+
+.training-session__team {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.training-session__team:hover {
+  color: var(--color-brand);
+  text-decoration: underline;
+}
+
+.training-session__hall {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}

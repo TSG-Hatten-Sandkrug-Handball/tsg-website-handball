@@ -5,7 +5,7 @@
  * @var array $page  provides the breadcrumbs
  * @var array $hero  title, intro?, kicker?, note?, variant? (plain|dark|brand|xl, space separated),
  *                   actions? (HTML), aside? (HTML, button on the right), media? (HTML, image column),
- *                   before_title? (HTML, e.g. a league tag), after_title? (HTML)
+ *                   before_title? (HTML, e.g. a league tag), after_title? (HTML), after_actions? (HTML)
  */
 $variants = isset($hero['variant']) ? array_map(function (string $variant): string {
     return 'page-hero--' . $variant;
@@ -31,6 +31,7 @@ $layout = isset($hero['media']) ? ' page-hero__inner--media' : (isset($hero['asi
 <?php if (isset($hero['actions'])): ?>
             <div class="button-row page-hero__actions"><?= $hero['actions'] ?></div>
 <?php endif; ?>
+            <?= $hero['after_actions'] ?? '' ?>
         </div>
 <?php if (isset($hero['aside'])): ?>
         <div class="page-hero__aside"><?= $hero['aside'] ?></div>

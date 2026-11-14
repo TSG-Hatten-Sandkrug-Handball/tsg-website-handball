@@ -77,6 +77,10 @@
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 14.5rem), 1fr));
 }
 
+.grid--5 {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr));
+}
+
 .split {
   display: grid;
   gap: var(--space-10);
