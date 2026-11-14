@@ -144,6 +144,11 @@ function media(?string $photo, string $kind, string $alt, array $options = []): 
     $placeholder = placeholder($kind);
     $src = $photo !== null ? url($photo) : asset('placeholders/' . $placeholder['file']);
     $alt = $photo !== null ? $alt : 'Platzhalter: ' . $alt;
+
+    // Photos right next to the person's name would only repeat it for screen readers.
+    if (!empty($options['decorative'])) {
+        $alt = '';
+    }
     $loading = $options['loading'] ?? 'lazy';
     $class = 'media media--' . $kind . (isset($options['class']) ? ' ' . $options['class'] : '');
 
