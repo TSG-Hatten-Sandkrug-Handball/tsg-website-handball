@@ -20,7 +20,15 @@ if (isset($options['origin'])) {
     define('SITE_ORIGIN', rtrim((string) $options['origin'], '/'));
 }
 if (isset($options['base'])) {
-    define('BASE_PATH', rtrim((string) $options['base'], '/'));
+    $base = rtrim((string) $options['base'], '/');
+
+    // Git Bash on Windows rewrites "/name" to a Windows path; set MSYS_NO_PATHCONV=1 there.
+    if ($base !== '' && !preg_match('#^(/[a-z0-9._-]+)+$#i', $base)) {
+        fwrite(STDERR, "Invalid --base \"{$base}\": expected something like /repo-name" . PHP_EOL);
+        exit(1);
+    }
+
+    define('BASE_PATH', $base);
 }
 if (isset($options['noindex'])) {
     define('SITE_NOINDEX', true);
@@ -50,6 +58,7 @@ foreach ($routes as $route) {
 write_file($out . '/404.html', render_template('not-found'));
 write_file($out . '/sitemap.xml', render_template('sitemap', ['routes' => $routes]));
 write_file($out . '/robots.txt', render_template('robots'));
+write_file($out . '/llms.txt', render_template('llms'));
 
 copy_directory(APP_ROOT . '/assets', $out . '/assets');
 copy_directory(APP_ROOT . '/public', $out);

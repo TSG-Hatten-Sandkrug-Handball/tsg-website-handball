@@ -148,6 +148,15 @@
     display: block;
   }
 
+  .main-nav__list {
+    justify-content: space-between;
+    column-gap: var(--space-3);
+  }
+
+  .main-nav__link {
+    font-size: var(--text-sm);
+  }
+
   .site-header__cta {
     grid-area: cta;
     display: inline-flex;
@@ -155,6 +164,17 @@
 
   .menu-toggle {
     display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .main-nav__list {
+    justify-content: flex-start;
+    column-gap: var(--space-6);
+  }
+
+  .main-nav__link {
+    font-size: var(--text-base);
   }
 }
 
@@ -170,5 +190,9 @@
     flex-wrap: nowrap;
     justify-content: center;
     column-gap: var(--space-5);
+  }
+
+  .main-nav__link {
+    font-size: var(--text-base);
   }
 }

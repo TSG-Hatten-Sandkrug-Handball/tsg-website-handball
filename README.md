@@ -1,83 +1,94 @@
-# TSG Handball – website for /handball
+# TSG Handball – website of the handball department
 
-New site of the handball department of TSG Hatten-Sandkrug e.V., served under
-`https://www.tsg-hatten-sandkrug.de/handball/`. Requirements: `TSG-Handball_Lastenheft.pdf`,
+New website of the handball department of TSG Hatten-Sandkrug e.V., planned for its own
+subdomain (final name still open). Requirements: `TSG-Handball_Lastenheft.pdf`,
 design: `TSG-Handball_Desktop.pdf` and `TSG-Handball_Mobil.pdf`.
 
-Plain PHP (7.2 compatible, matching the current server) without framework, database or build step.
-All page content is rendered on the server, JavaScript only enhances (menu, countdown, side panel).
+The published site is **plain HTML, CSS and a little JavaScript**. PHP is only used as a
+generator: `build.php` renders the templates in `src/` into static files in `dist/`.
+The web server needs no PHP and no database.
+
+## Build and preview
+
+Requires PHP 7.2 or newer on your machine.
+
+```
+php build.php                       # production build into dist/
+php -S localhost:8000 -t dist       # local preview at http://localhost:8000/
+```
+
+Options: `--origin=https://…` (domain), `--base=/folder` (when the site lives in a sub
+folder, e.g. on GitHub Pages), `--noindex` (keeps search engines out), `--out=folder`.
+Defaults live in `src/includes/config.php`. The build stops on any PHP warning.
 
 ## Structure
 
 ```
-handball/                 deploy this folder as /handball on the web server
-├── index.php             overview page; every other page is <route>/index.php
-├── neuigkeiten/          news list (?thema=, ?seite=) + article.php (/neuigkeiten/<slug>/)
-├── mannschaften/         teams overview (?gruppe=) + team.php (/mannschaften/<slug>/)
+build.php                 generator: renders all routes, bundles CSS, copies assets
+src/
 ├── data/                 all content as PHP arrays – edit these to change the site
+├── pages/                one template per page type (home, news, team, …)
 ├── includes/
-│   ├── config.php        site-wide constants (domain, base path, e-mail addresses, season)
+│   ├── config.php        domain, e-mail addresses, season, defaults
+│   ├── routes.php        list of every generated page
 │   ├── helpers.php       escaping, URLs, e-mail obfuscation, buttons, images
-│   ├── repository.php    queries over the data (next home match, training week, coaches …)
+│   ├── repository.php    queries over the data (fixtures, training week, coaches …)
 │   ├── schema.php        schema.org JSON-LD
-│   ├── layout/           head, header, footer, start/end of every page
+│   ├── layout/           head, header, footer
 │   └── partials/         reusable components (page hero, cards, roster, org chart …)
 ├── assets/
-│   ├── css/main.css      @import list; tokens.css holds every colour, size and duration
-│   ├── css/components/   one file per component
-│   ├── js/main.js        ES modules in js/modules/
+│   ├── css/              main.css imports tokens, base, layout, components/, utilities
+│   ├── js/               main.js and one ES module per feature in modules/
 │   ├── icons/            Lucide icons (ISC licence), used as CSS masks
 │   ├── placeholders/     placeholder SVGs (Lastenheft 8.1)
-│   ├── fonts/            Barlow Condensed and Carlito (SIL Open Font License)
+│   ├── fonts/            Barlow Condensed, Carlito (SIL Open Font License)
 │   └── img/              crest, favicon, Open Graph image
-├── .htaccess             old-URL redirects, clean URLs, protection of includes/ and data/
-├── 404.php, sitemap.php (served as sitemap.xml), llms.txt
-dev-router.php            emulates .htaccess for PHP's built-in server (local only)
+└── public/               copied as is into dist/ (.htaccess for Strato, llms.txt)
+docs/                     redirects to set up on the club website
 ```
-
-## Run locally
-
-```
-php -S localhost:8000 dev-router.php
-```
-
-Then open <http://localhost:8000/handball/>.
 
 ## Editing content
 
 | What | Where |
 | --- | --- |
-| People (name, e-mail, photo) – maintained once, used everywhere | `data/people.php` |
-| Teams, training times, coaches, squads, nuLiga IDs | `data/teams.php` |
-| Schedule, last result, table of the 1. Herren | `data/matches.php` |
-| News | `data/news.php` (newest first is automatic) |
-| Events | `data/events.php` (past events disappear automatically) |
-| Contacts, referees, organisation chart, Förderkreis, Kids-Cup, prices | `data/contacts.php`, `referees.php`, `organization.php`, `support-club.php`, `kids-cup.php`, `tickets.php` |
-| Downloads, Hallenhefte, partners | `data/documents.php`, `data/partners.php` |
+| People (name, e-mail, photo) – maintained once, used everywhere | `src/data/people.php` |
+| Teams, training times, coaches, squads, nuLiga IDs | `src/data/teams.php` |
+| Schedule, last result, table of the 1. Herren | `src/data/matches.php` |
+| News | `src/data/news.php` |
+| Events | `src/data/events.php` |
+| Contacts, referees, organisation chart, Förderkreis, Kids-Cup, prices | `contacts.php`, `referees.php`, `organization.php`, `support-club.php`, `kids-cup.php`, `tickets.php` |
+| Downloads, Hallenhefte, partners | `documents.php`, `partners.php` |
 
-Images: put the file below `handball/assets/img/` and set its path (e.g. `assets/img/teams/damen.webp`)
-in the data entry. Without a path the matching placeholder is shown automatically.
+Images go below `src/assets/img/`; set the path (e.g. `assets/img/teams/damen.webp`) in the
+data entry. Without a path the matching placeholder is shown automatically.
+
+After editing, rebuild. Past matches and events disappear in the browser automatically
+(`upcoming.js`), so the site stays correct between builds; a rebuild only removes them
+from the HTML.
 
 ## Adding things
 
-- **Page:** create `handball/<route>/index.php`, copy the `$page` block from an existing page
-  (title, description, path, nav, breadcrumbs), include `layout/start.php` and `layout/end.php`,
-  and add the route to `sitemap.php` and, if needed, `data/navigation.php`.
-- **Component:** add `includes/partials/<name>.php` and `assets/css/components/<name>.css`,
-  then import the CSS file in `assets/css/main.css`.
-- **Team:** add an entry to `data/teams.php`; its page `/mannschaften/<key>/` exists immediately.
+- **Page:** add a template in `src/pages/`, register its path in `src/includes/routes.php`
+  and, if it belongs in the menu, in `src/data/navigation.php`.
+- **Component:** add `src/includes/partials/<name>.php` and
+  `src/assets/css/components/<name>.css`, then import the CSS in `main.css`.
+- **Team or article:** add an entry to the data file; its page is generated automatically.
 
 ## Conventions
 
-English code, German page copy. Mobile-first CSS with `@layer` (no `!important`), BEM-like class
-names, values only from `tokens.css`. No inline styles, scripts or SVG in the markup. Every output
-goes through `e()`, mail links through `href()`/`email_link()` (obfuscated against harvesters).
+English code, German page copy. Mobile-first CSS in `@layer`s (no `!important`), BEM-like
+class names, values only from `tokens.css`. No inline styles, scripts or SVG in the markup.
+All output goes through `e()`, mail links through `href()`/`email_link()` (obfuscated).
+Everything is readable without JavaScript.
 
-## Deployment notes
+## Publishing
 
-- Upload the `handball/` folder to the web root so it is reachable as `/handball/`. Its `.htaccess`
-  needs `AllowOverride All` (mod_rewrite) – the same as TYPO3 already uses.
-- Add the sitemap to the domain's `robots.txt`:
-  `Sitemap: https://www.tsg-hatten-sandkrug.de/handball/sitemap.xml`
-- HTTPS and the preferred host (`www`) are enforced by the main site.
-- PHP 7.2 is end of life; the code also runs on PHP 8.x, so an upgrade is safe.
+- **Preview for the board – GitHub Pages:** every push to `main` builds the site with
+  `--noindex` and deploys it (`.github/workflows/pages.yml`). In the repository settings,
+  *Pages › Source* must be set to *GitHub Actions*. For a private repository this requires a
+  paid GitHub plan for the organisation; otherwise make the repository public.
+- **Production – Strato webspace:** set the final subdomain in `config.php`, run
+  `php build.php` and upload the contents of `dist/` (including `.htaccess`) into the
+  subdomain's folder via SFTP. Point the subdomain to that folder in the Strato panel and
+  enable SSL.
+- **Old addresses:** see `docs/redirects-main-domain.md`.
