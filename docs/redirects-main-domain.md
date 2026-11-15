@@ -14,7 +14,7 @@ Replace `https://handball.tsg-hatten-sandkrug.de` with the final subdomain.
 | `/handball/neuigkeiten/` | `/neuigkeiten/` |
 | `/handball/veranstaltungen/` | `/termine/` |
 | `/handball/foerderkreis/` | `/foerderkreis/` |
-| `/handball/service/` | `/service/` |
+| `/handball/service/` | `/kontakt/#formulare` |
 | `/handball/tickets/`, `/handball/hallenheft/` | `/heimspiele/` |
 | `/handball/abteilungsinfos/` | `/abteilung/` |
 | `/handball/turnier/` | `/kids-cup/` |
@@ -46,7 +46,8 @@ RewriteRule ^handball/minis/?$ https://handball.tsg-hatten-sandkrug.de/mannschaf
 RewriteRule ^handball/f-jugend/?$ https://handball.tsg-hatten-sandkrug.de/mannschaften/minis-kirchhatten/ [R=301,L,QSD]
 RewriteRule ^handball/weibliche-d-jugend/?$ https://handball.tsg-hatten-sandkrug.de/mannschaften/weibliche-d-jugend-1/ [R=301,L,QSD]
 RewriteRule ^handball/(2-herren|damen|maennliche-[a-e]-jugend|weibliche-[b-e]-jugend(-[12])?)/?$ https://handball.tsg-hatten-sandkrug.de/mannschaften/$1/ [R=301,L,QSD]
-RewriteRule ^handball/(neuigkeiten|foerderkreis|service|schiedsrichter|1-herren)/?$ https://handball.tsg-hatten-sandkrug.de/$1/ [R=301,L,QSD]
+RewriteRule ^handball/service/?$ https://handball.tsg-hatten-sandkrug.de/kontakt/#formulare [R=301,NE,L,QSD]
+RewriteRule ^handball/(neuigkeiten|foerderkreis|schiedsrichter|1-herren)/?$ https://handball.tsg-hatten-sandkrug.de/$1/ [R=301,L,QSD]
 ```
 
 The menu item *Sportarten › Handball* on the club website (R-02) then simply links

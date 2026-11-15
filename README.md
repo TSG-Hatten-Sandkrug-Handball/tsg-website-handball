@@ -56,7 +56,7 @@ for the old value.
 | Schedule, result, table of the 1. Herren | `index.html` (stage and table), `heimspiele/` |
 | New article | new folder `neuigkeiten/<slug>/` (copy an existing article), plus `neuigkeiten/index.html`, the matching `neuigkeiten/thema/<topic>/`, `index.html` (news block) and `sitemap.xml` |
 | Event | `termine/index.html` (pattern below) |
-| Downloads | `service/`, `kids-cup/`, `heimspiele/` (Hallenheft) |
+| Downloads | `kontakt/` (Formulare), `kids-cup/`, `heimspiele/` (Hallenheft) |
 
 Matches and events carry their date in `data-start`. Once it has passed, `upcoming.js`
 hides them in the browser, so old entries do not have to be removed on the day itself.

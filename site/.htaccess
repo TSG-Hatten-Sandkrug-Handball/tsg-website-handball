@@ -11,6 +11,9 @@ ErrorDocument 404 /404.html
     # HTTPS only (Lastenheft LS-03).
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    # Service was merged into the contact page.
+    RewriteRule ^service/?$ /kontakt/#formulare [R=301,NE,L]
 </IfModule>
 
 <IfModule mod_headers.c>

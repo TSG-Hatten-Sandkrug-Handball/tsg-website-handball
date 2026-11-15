@@ -11,8 +11,7 @@
 - [Kids-Cup](https://handball.tsg-hatten-sandkrug.de/kids-cup/): Jugendturnier seit 1975, Ablauf und Gebühren
 - [Förderkreis](https://handball.tsg-hatten-sandkrug.de/foerderkreis/): Förderkreis TSG 2000 für den Jugendhandball
 - [Abteilung](https://handball.tsg-hatten-sandkrug.de/abteilung/): Geschichte, Erfolge, Organisation
-- [Service](https://handball.tsg-hatten-sandkrug.de/service/): Formulare und Anträge
-- [Kontakt](https://handball.tsg-hatten-sandkrug.de/kontakt/): Ansprechpartner der Abteilung
+- [Kontakt & Service](https://handball.tsg-hatten-sandkrug.de/kontakt/): Ansprechpartner der Abteilung, Formulare und Anträge
 
 ## Probetraining
 

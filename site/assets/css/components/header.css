@@ -132,7 +132,7 @@
   color: var(--color-brand);
 }
 
-/* Tablet: navigation moves to a second row so all nine items stay visible. */
+/* Tablet: navigation moves to a second row so all items stay visible. */
 @media (min-width: 43.75em) {
   .site-header__inner {
     grid-template-columns: 1fr auto;
