@@ -41,7 +41,9 @@
   color: var(--color-brand);
 }
 
+/* Many supplied logos sit on a white box; multiply lets it blend into the hover background. */
 .partner-grid__logo {
   max-height: 3rem;
   width: auto;
+  mix-blend-mode: multiply;
 }
