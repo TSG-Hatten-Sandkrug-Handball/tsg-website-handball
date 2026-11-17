@@ -1,5 +1,5 @@
 /* Team cards on /mannschaften with a colour bar (Lastenheft MA-03):
-   brand blue by default, dark for the men, amber for women and girls. */
+   brand blue by default, black for the men, pink for women and girls. */
 .team-card {
   position: relative;
   display: grid;
@@ -13,7 +13,7 @@
 }
 
 .team-card--senior {
-  border-top-color: var(--color-text);
+  border-top-color: var(--color-accent-senior);
 }
 
 .team-card--female {

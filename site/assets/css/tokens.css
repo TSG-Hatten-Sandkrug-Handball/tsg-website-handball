@@ -16,7 +16,10 @@
   --color-surface: #f3f4f6;
   --color-line: #e5e7eb;
   --color-white: #fff;
-  --color-accent-female: #d97706;
+  /* Team accent bars: neutral black, brand navy and a vivid pink sit on three
+     clearly different lightness levels so the teams stay apart at a glance. */
+  --color-accent-senior: #000;
+  --color-accent-female: #e91e8c;
   --color-win-bg: #dcfce7;
   --color-win-text: #166534;
   --color-loss-bg: #fee2e2;
