@@ -4,7 +4,7 @@
 
 ## Wichtige Seiten
 
-- [Übersicht](https://handball.tsg-hatten-sandkrug.de/): nächstes Heimspiel, Neuigkeiten, Spielplan und Tabelle der 1. Herren
+- [Übersicht](https://handball.tsg-hatten-sandkrug.de/): nächstes Heimspiel, Neuigkeiten, Jugend und Partner
 - [Mannschaften](https://handball.tsg-hatten-sandkrug.de/mannschaften/): alle Teams mit Trainingszeiten, Hallen und Trainerteams
 - [1. Herren](https://handball.tsg-hatten-sandkrug.de/1-herren/): Kader, Trainer und Staff
 - [Heimspiele](https://handball.tsg-hatten-sandkrug.de/heimspiele/): Tickets, Dauerkarte, Hallenheft, Anfahrt
