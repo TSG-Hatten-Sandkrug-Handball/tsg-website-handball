@@ -97,9 +97,13 @@
   padding: var(--space-6);
 }
 
+/* Same look whether it is an h2 (news page) or an h3 (home page). */
 .news-featured__title {
+  font-family: var(--font-display);
   font-size: var(--text-h3);
+  font-weight: 700;
   line-height: var(--leading-snug);
+  text-transform: uppercase;
 }
 
 .news-featured__teaser {

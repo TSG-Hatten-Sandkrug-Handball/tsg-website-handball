@@ -53,8 +53,8 @@ for the old value.
 | Menu, header or footer | every `index.html` and `404.html` (identical block in each file) |
 | Person: name or e-mail | `kontakt/`, `uebungsleiter/`, the team pages, `abteilung/` (organisation chart), `schiedsrichter/`, `mitmachen/`, `foerderkreis/`, `1-herren/` |
 | Training times or coaches | `mannschaften/index.html`, `mannschaften/gruppe/*/`, the team page, `uebungsleiter/` |
-| Schedule, result, table of the 1. Herren | `index.html` (stage and table), `heimspiele/` |
-| New article | new folder `neuigkeiten/<slug>/` (copy an existing article), plus `neuigkeiten/index.html`, the matching `neuigkeiten/thema/<topic>/`, `index.html` (news block) and `sitemap.xml` |
+| Next home match of the 1. Herren | `index.html` (stage), `heimspiele/` |
+| New article | new folder `neuigkeiten/<slug>/` (copy an existing article), plus `neuigkeiten/index.html`, `index.html` (news block) and `sitemap.xml` |
 | Event | `termine/index.html` (pattern below) |
 | Downloads | `kontakt/` (Formulare), `kids-cup/`, `heimspiele/` (Hallenheft) |
 

@@ -26,3 +26,8 @@
 .mt-8 {
   margin-top: var(--space-8);
 }
+
+/* Keeps hyphenated names like "CS-Energiesysteme" from breaking at the hyphen. */
+.nowrap {
+  white-space: nowrap;
+}

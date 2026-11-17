@@ -35,3 +35,18 @@
 .media--avatar {
   border-radius: 50%;
 }
+
+/* Sponsor logos are small raster files: show them whole on white and at most
+   1.5 times their size, so they stay sharp. */
+.media--logo {
+  display: grid;
+  place-items: center;
+  border: var(--border);
+  background: var(--color-white);
+}
+
+.media--logo .media__image {
+  width: min(60%, 19.3rem);
+  height: auto;
+  object-fit: contain;
+}
