@@ -57,6 +57,7 @@ for the old value.
 | New article | new folder `neuigkeiten/<slug>/` (copy an existing article), plus `neuigkeiten/index.html`, `index.html` (news block) and `sitemap.xml` |
 | Event | `termine/index.html` (pattern below) |
 | Downloads | `kontakt/` (Formulare), `kids-cup/`, `heimspiele/` (Hallenheft) |
+| Sponsor | `sponsoren/index.html` (category section), plus the logo grid in `index.html` if there is a logo in `assets/img/partners/` |
 
 Matches and events carry their date in `data-start`. Once it has passed, `upcoming.js`
 hides them in the browser, so old entries do not have to be removed on the day itself.

@@ -2,8 +2,8 @@
 .partner-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  border-top: var(--border);
-  border-left: var(--border);
+  /* Room for the overlapping item borders below. */
+  padding: 0 1px 1px 0;
 }
 
 @media (min-width: 43.75em) {
@@ -18,12 +18,16 @@
   }
 }
 
+/* Each tile draws its own frame and overlaps its neighbours by 1px, so short
+   rows (like two Basissponsoren) get no stray line across the empty columns. */
 .partner-grid__item {
-  border-right: var(--border);
-  border-bottom: var(--border);
+  margin: 0 -1px -1px 0;
+  border: var(--border);
+  background: var(--color-white);
 }
 
-.partner-grid__link {
+.partner-grid__link,
+.partner-grid__name {
   display: grid;
   place-items: center;
   height: 100%;
@@ -32,6 +36,9 @@
   font-size: var(--text-sm);
   text-align: center;
   color: var(--color-muted);
+}
+
+.partner-grid__link {
   text-decoration: none;
   transition: color var(--duration-fast) var(--ease), background-color var(--duration-fast) var(--ease);
 }
@@ -46,4 +53,11 @@
   max-height: 3rem;
   width: auto;
   mix-blend-mode: multiply;
+}
+
+/* Sponsors without a logo yet are shown by name in the same tile size. */
+.partner-grid__name {
+  font-weight: 700;
+  line-height: var(--leading-snug);
+  color: var(--color-text);
 }
