@@ -196,3 +196,10 @@
     font-size: var(--text-base);
   }
 }
+
+/* Marks the Fanshop tab as an external site. */
+.main-nav__external {
+  width: 0.875em;
+  height: 0.875em;
+  margin-left: var(--space-1);
+}
