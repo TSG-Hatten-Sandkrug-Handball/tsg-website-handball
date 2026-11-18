@@ -29,3 +29,5 @@
 .icon--download { --icon: url("../../icons/download.svg"); }
 .icon--external-link { --icon: url("../../icons/external-link.svg"); }
 .icon--mail { --icon: url("../../icons/mail.svg"); }
+.icon--play { --icon: url("../../icons/play.svg"); }
+.icon--pause { --icon: url("../../icons/pause.svg"); }

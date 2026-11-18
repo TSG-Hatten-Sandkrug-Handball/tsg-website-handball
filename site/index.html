@@ -173,7 +173,18 @@
                             <a class="button button--light" href="https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/teamPortrait?teamtable=2220639&amp;pageState=vorrunde&amp;championship=HVNB+26%2F27&amp;group=489136" target="_blank" rel="noopener">Spielplan<span class="visually-hidden"> (öffnet in neuem Tab)</span></a>                </div>
                     </div>
                 </div>
-                <span class="media media--wide-dark match-stage__media"><img class="media__image" src="assets/placeholders/placeholder-photo-wide-dark.svg" alt="Platzhalter: Die 1. Herren in Aktion" width="320" height="180" loading="eager" decoding="async"></span>    </div>
+                <div class="media media--wide-dark match-stage__media match-video" data-video>
+                    <video class="match-video__player" poster="assets/video/highlights-poster.webp" width="960" height="540" autoplay muted loop playsinline aria-label="Spielszenen der 1. Herren">
+                        <source src="assets/video/highlights.webm" type="video/webm; codecs=av01.0.04M.08">
+                        <source src="assets/video/highlights.mp4" type="video/mp4">
+                    </video>
+                    <div class="match-video__controls" hidden>
+                        <button class="match-video__button" type="button" data-video-play>
+                            <span class="icon icon--pause" aria-hidden="true"></span><span class="icon icon--play" aria-hidden="true"></span><span class="visually-hidden">Video anhalten</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="section" aria-labelledby="home-news-title">
             <div class="container">
