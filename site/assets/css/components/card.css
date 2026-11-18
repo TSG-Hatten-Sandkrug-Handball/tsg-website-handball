@@ -78,6 +78,20 @@
   font-style: normal;
 }
 
+/* Route links on the directions card; the choice replaces the single link on touch devices. */
+.route__choices {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: var(--space-4);
+}
+
+.route__label {
+  width: 100%;
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
 .card--dashed {
   padding: var(--space-8) var(--space-6);
   border-style: dashed;

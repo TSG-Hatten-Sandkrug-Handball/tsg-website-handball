@@ -1,6 +1,7 @@
 import { loadTeamData, upcomingFixtures } from './team-data.js';
 import { formatLongDate, formatTime } from './date-format.js';
 import { startCountdown } from './countdown.js';
+import { escapeHtml } from './escape-html.js';
 
 // Fills the home page stage with the next home match from the imported team
 // data. Without data (no JavaScript, failed request, summer break) the
@@ -27,10 +28,11 @@ function renderMatch(stage, match) {
   const countdown = stage.querySelector('[data-match-countdown]');
 
   stage.querySelector('[data-match-league]').textContent = match.league;
-  stage.querySelector('[data-match-guest]').textContent = match.away;
+  // Long club names like "Grüppenbühren/Bookholzberg" may wrap after the slash.
+  stage.querySelector('[data-match-guest]').innerHTML = escapeHtml(match.away).replace(/\//g, '/<wbr>');
   stage.querySelector('[data-match-time]').textContent = kickOff;
   stage.querySelector('[data-match-time]').dateTime = match.start;
-  stage.querySelector('[data-match-venue]').textContent = match.venue ?? '';
+  stage.querySelector('[data-match-venue]').textContent = match.venue ? ` · ${match.venue}` : '';
   stage.querySelector('[data-match-kickoff-text]').textContent = `Anwurf am ${kickOff}.`;
 
   countdown.dataset.target = match.start;

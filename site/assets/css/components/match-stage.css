@@ -22,11 +22,15 @@
 }
 
 .match-stage__title {
+  --crest-size: clamp(2.5rem, 2rem + 2vw, 3.5rem);
   display: grid;
   gap: var(--space-3);
   justify-items: start;
   font-size: clamp(1.75rem, 1.2rem + 2.2vw, 2.75rem);
   color: var(--color-white);
+  /* Team names break at syllables ("Wilhelms-havener"), not at any letter. */
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .match-stage__team {
@@ -42,14 +46,15 @@
 
 .match-stage__crest {
   flex: none;
-  width: clamp(2.5rem, 2rem + 2vw, 3.5rem);
+  width: var(--crest-size);
   height: auto;
 }
 
 .match-stage__versus {
   display: inline-grid;
   place-items: center;
-  min-width: 2.5rem;
+  /* As wide as the crests, so "vs" sits centred between them when the teams are stacked. */
+  width: var(--crest-size);
   padding: var(--space-1) var(--space-2);
   background: var(--color-brand-lighter);
   color: var(--color-brand);
@@ -59,6 +64,18 @@
 
 .match-stage__meta {
   color: var(--color-brand-lighter);
+}
+
+.match-stage__fixture .match-stage__title {
+  margin-block: var(--space-2) var(--space-4);
+}
+
+.match-stage__fixture .countdown {
+  margin-top: var(--space-5);
+}
+
+.match-stage__fixture .button-row {
+  margin-top: var(--space-6);
 }
 
 .match-stage__media {
@@ -100,11 +117,18 @@
   display: none;
 }
 
-@media (min-width: 43.75em) {
+/* Side by side only while the stage uses the full width; next to the video
+   (64em and up) the column is too narrow for long team names. */
+@media (min-width: 43.75em) and (max-width: 63.99em) {
   .match-stage__title {
     grid-template-columns: auto auto auto;
     align-items: center;
     gap: var(--space-4);
+  }
+
+  .match-stage__versus {
+    width: auto;
+    min-width: 2.5rem;
   }
 }
 

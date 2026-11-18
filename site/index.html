@@ -124,8 +124,7 @@
                             </span>
                         </h2>
                         <p class="match-stage__meta">
-                            <time data-match-time></time><br>
-                            <span data-match-venue></span>
+                            <time data-match-time></time><span data-match-venue></span>
                         </p>
                         <div class="countdown" data-match-countdown>
                             <p class="visually-hidden" data-match-kickoff-text></p>
@@ -189,7 +188,14 @@
                     <li class="card price-card">
                         <h3 class="price-card__title">Anfahrt</h3>
                         <address class="card__meta card__address">Sportzentrum Sandkrug<br>Schultredde, 26209 Hatten</address>
-                        <a class="text-link" href="https://www.openstreetmap.org/search?query=Schultredde%2C%2026209%20Hatten" target="_blank" rel="noopener">Route bei OpenStreetMap<span class="visually-hidden"> (öffnet in neuem Tab)</span></a>
+                        <div class="route" data-route>
+                            <a class="text-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Sportzentrum+Sandkrug%2C+Schultredde%2C+26209+Hatten" target="_blank" rel="noopener" data-route-default>Route<span class="icon icon--external-link text-link__icon" aria-hidden="true"></span><span class="visually-hidden"> mit Google Maps (öffnet in neuem Tab)</span></a>
+                            <p class="route__choices" data-route-choices hidden>
+                                <span class="route__label">Route mit</span>
+                                <a class="text-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Sportzentrum+Sandkrug%2C+Schultredde%2C+26209+Hatten" target="_blank" rel="noopener">Google Maps<span class="icon icon--external-link text-link__icon" aria-hidden="true"></span><span class="visually-hidden"> (öffnet in neuem Tab)</span></a>
+                                <a class="text-link" href="https://maps.apple.com/?daddr=Sportzentrum+Sandkrug%2C+Schultredde%2C+26209+Hatten" target="_blank" rel="noopener">Apple Maps<span class="icon icon--external-link text-link__icon" aria-hidden="true"></span><span class="visually-hidden"> (öffnet in neuem Tab)</span></a>
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
