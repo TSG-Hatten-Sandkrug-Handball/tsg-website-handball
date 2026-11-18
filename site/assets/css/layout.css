@@ -60,6 +60,10 @@
   margin-bottom: var(--space-4);
 }
 
+.section-head .section-title-sm {
+  margin-bottom: 0;
+}
+
 .grid {
   display: grid;
   gap: var(--space-4);

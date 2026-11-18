@@ -1,0 +1,333 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Oberliga männliche Jugend C Staffel West",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HVNB%2026%2F27&group=488980",
+      "table": [
+        {
+          "rank": 1,
+          "team": "HSG Unterweser",
+          "games": 6,
+          "wins": 6,
+          "draws": 0,
+          "losses": 0,
+          "goals": "209:156",
+          "goalDifference": "+53",
+          "points": "12:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "TuS Komet Arsten",
+          "games": 4,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "goals": "122:69",
+          "goalDifference": "+53",
+          "points": "8:0",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "JSG Wilhelmshaven",
+          "games": 4,
+          "wins": 3,
+          "draws": 0,
+          "losses": 1,
+          "goals": "128:87",
+          "goalDifference": "+41",
+          "points": "6:2",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "SV Rot-Weiß Damme",
+          "games": 4,
+          "wins": 3,
+          "draws": 0,
+          "losses": 1,
+          "goals": "158:120",
+          "goalDifference": "+38",
+          "points": "6:2",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals": "96:79",
+          "goalDifference": "+17",
+          "points": "4:2",
+          "own": true
+        },
+        {
+          "rank": 6,
+          "team": "SG Aurich-Marienhafe",
+          "games": 5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "goals": "148:169",
+          "goalDifference": "-21",
+          "points": "4:6",
+          "own": false
+        },
+        {
+          "rank": 7,
+          "team": "SFN Vechta",
+          "games": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goals": "78:75",
+          "goalDifference": "+3",
+          "points": "2:4",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "ATSV Habenhausen II",
+          "games": 5,
+          "wins": 1,
+          "draws": 0,
+          "losses": 4,
+          "goals": "137:188",
+          "goalDifference": "-51",
+          "points": "2:8",
+          "own": false
+        },
+        {
+          "rank": 9,
+          "team": "TV Georgsmarienhütte",
+          "games": 5,
+          "wins": 0,
+          "draws": 0,
+          "losses": 5,
+          "goals": "146:174",
+          "goalDifference": "-28",
+          "points": "0:10",
+          "own": false
+        },
+        {
+          "rank": 10,
+          "team": "SG Neuenhaus/Uelsen",
+          "games": 5,
+          "wins": 0,
+          "draws": 0,
+          "losses": 5,
+          "goals": "134:239",
+          "goalDifference": "-105",
+          "points": "0:10",
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "1",
+      "start": "2026-09-05T14:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG Aurich-Marienhafe",
+      "score": "32:21",
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    },
+    {
+      "number": "8",
+      "start": "2026-09-20T14:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Georgsmarienhütte, SZ",
+      "home": "TV Georgsmarienhütte",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "27:35",
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "17",
+      "start": "2026-11-07T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Unterweser",
+      "score": "29:31",
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    },
+    {
+      "number": "29",
+      "start": "2026-11-25T19:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SV Rot-Weiß Damme",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    },
+    {
+      "number": "31",
+      "start": "2026-11-28T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Habenhausen, Hinni-Schwenker-Halle",
+      "home": "ATSV Habenhausen II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "39",
+      "start": "2026-12-12T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TuS Komet Arsten",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    },
+    {
+      "number": "13",
+      "start": "2026-12-18T19:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Vechta-West, SH",
+      "home": "SFN Vechta",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "24",
+      "start": "2027-01-13T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Wilhelmshaven Sporthalle Nogatstraße (OT Fedderwardergroden)",
+      "home": "JSG Wilhelmshaven",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "45",
+      "start": "2027-01-23T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sportzentrum DinkelDuo Neuenhaus",
+      "home": "SG Neuenhaus/Uelsen",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "49",
+      "start": "2027-01-30T16:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Aurich-Mitte, SH",
+      "home": "SG Aurich-Marienhafe",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "56",
+      "start": "2027-02-07T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TV Georgsmarienhütte",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    },
+    {
+      "number": "59",
+      "start": "2027-02-14T12:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SFN Vechta",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    },
+    {
+      "number": "66",
+      "start": "2027-02-26T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Nordenham-Blexen, SZ Nord",
+      "home": "HSG Unterweser",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "69",
+      "start": "2027-03-06T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "JSG Wilhelmshaven",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    },
+    {
+      "number": "74",
+      "start": "2027-03-13T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Damme, HS",
+      "home": "SV Rot-Weiß Damme",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "78",
+      "start": "2027-04-11T11:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "ATSV Habenhausen II",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    },
+    {
+      "number": "81",
+      "start": "2027-04-16T17:45:00+02:00",
+      "timeKnown": true,
+      "venue": "Bremen-Arsten, Vereinsporthalle TuS Komet Arsten",
+      "home": "TuS Komet Arsten",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": false
+    },
+    {
+      "number": "88",
+      "start": "2027-04-25T13:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG Neuenhaus/Uelsen",
+      "score": null,
+      "league": "Oberliga männliche Jugend C Staffel West",
+      "isHome": true
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:27.846Z"
+}

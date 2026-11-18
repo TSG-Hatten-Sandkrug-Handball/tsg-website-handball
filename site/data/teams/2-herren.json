@@ -1,0 +1,345 @@
+{
+  "team": "TSG Hatten-Sandkrug II",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Regionsoberliga Männer West",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=489108",
+      "table": [
+        {
+          "rank": 1,
+          "team": "TV Neerstedt II",
+          "games": 6,
+          "wins": 6,
+          "draws": 0,
+          "losses": 0,
+          "goals": "181:143",
+          "goalDifference": "+38",
+          "points": "12:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "HSG Varel III",
+          "games": 7,
+          "wins": 5,
+          "draws": 0,
+          "losses": 2,
+          "goals": "162:139",
+          "goalDifference": "+23",
+          "points": "10:4",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "Wilhelmshavener SSV",
+          "games": 6,
+          "wins": 4,
+          "draws": 0,
+          "losses": 2,
+          "goals": "186:172",
+          "goalDifference": "+14",
+          "points": "8:4",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "TvdH Oldenburg II",
+          "games": 5,
+          "wins": 3,
+          "draws": 0,
+          "losses": 2,
+          "goals": "149:112",
+          "goalDifference": "+37",
+          "points": "6:4",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "HG Jever/Schortens II",
+          "games": 6,
+          "wins": 3,
+          "draws": 0,
+          "losses": 3,
+          "goals": "183:182",
+          "goalDifference": "+1",
+          "points": "6:6",
+          "own": false
+        },
+        {
+          "rank": 6,
+          "team": "TSG Hatten-Sandkrug II",
+          "games": 6,
+          "wins": 3,
+          "draws": 0,
+          "losses": 3,
+          "goals": "152:181",
+          "goalDifference": "-29",
+          "points": "6:6",
+          "own": true
+        },
+        {
+          "rank": 7,
+          "team": "SG SV F-fehn./TuS P-fehn II",
+          "games": 7,
+          "wins": 3,
+          "draws": 0,
+          "losses": 4,
+          "goals": "194:190",
+          "goalDifference": "+4",
+          "points": "6:8",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "VfL Oldenburg",
+          "games": 5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "goals": "132:137",
+          "goalDifference": "-5",
+          "points": "4:6",
+          "own": false
+        },
+        {
+          "rank": 9,
+          "team": "SV Eintracht Wiefelstede",
+          "games": 7,
+          "wins": 1,
+          "draws": 0,
+          "losses": 6,
+          "goals": "176:210",
+          "goalDifference": "-34",
+          "points": "2:12",
+          "own": false
+        },
+        {
+          "rank": 10,
+          "team": "HSG Altes Amt Friesoythe",
+          "games": 7,
+          "wins": 1,
+          "draws": 0,
+          "losses": 6,
+          "goals": "188:237",
+          "goalDifference": "-49",
+          "points": "2:12",
+          "own": false
+        },
+        {
+          "rank": 11,
+          "team": "Wilhelmshavener HV III",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "11154",
+      "start": "2026-09-06T18:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "SG SV F-fehn./TuS P-fehn II",
+      "score": "27:26",
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11161",
+      "start": "2026-09-18T20:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "HSG Varel III",
+      "score": "26:35",
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11170",
+      "start": "2026-09-27T17:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Neerstedt, SZ",
+      "home": "TV Neerstedt II",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": "33:17",
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    },
+    {
+      "number": "11171",
+      "start": "2026-10-03T12:40:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "VfL Oldenburg",
+      "score": "28:27",
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11177",
+      "start": "2026-10-31T20:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Jever, SZ",
+      "home": "HG Jever/Schortens II",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": "39:30",
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    },
+    {
+      "number": "11185",
+      "start": "2026-11-08T15:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "SV Eintracht Wiefelstede",
+      "score": "24:21",
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11196",
+      "start": "2026-11-28T20:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "HSG Altes Amt Friesoythe",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11199",
+      "start": "2026-12-05T19:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, SZ-Eversten",
+      "home": "TvdH Oldenburg II",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    },
+    {
+      "number": "11202",
+      "start": "2026-12-12T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "Wilhelmshavener SSV",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11207",
+      "start": "2026-12-19T17:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Bad Zwischenahn-Petersfehn, SPZ",
+      "home": "SG SV F-fehn./TuS P-fehn II",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    },
+    {
+      "number": "11216",
+      "start": "2027-01-23T15:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Varel, SH Manfred-Schmidt",
+      "home": "HSG Varel III",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    },
+    {
+      "number": "11221",
+      "start": "2027-02-05T20:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "TV Neerstedt II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11227",
+      "start": "2027-02-13T19:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, Robert-Schumann-Halle",
+      "home": "VfL Oldenburg",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    },
+    {
+      "number": "11234",
+      "start": "2027-02-21T12:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "HG Jever/Schortens II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11236",
+      "start": "2027-03-06T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Wiefelstede, SZ",
+      "home": "SV Eintracht Wiefelstede",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    },
+    {
+      "number": "11250",
+      "start": "2027-04-11T18:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Friesoythe, SH Großen Kamp",
+      "home": "HSG Altes Amt Friesoythe",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    },
+    {
+      "number": "11251",
+      "start": "2027-04-16T20:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "TvdH Oldenburg II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": true
+    },
+    {
+      "number": "11258",
+      "start": "2027-04-24T18:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Wilhelmshaven Sporthalle Nogatstraße (OT Fedderwardergroden)",
+      "home": "Wilhelmshavener SSV",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsoberliga Männer West",
+      "isHome": false
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:27.576Z"
+}

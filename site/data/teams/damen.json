@@ -1,0 +1,311 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Regionsliga Frauen West",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=489407",
+      "table": [
+        {
+          "rank": 1,
+          "team": "Wilhelmshavener HV II",
+          "games": 5,
+          "wins": 5,
+          "draws": 0,
+          "losses": 0,
+          "goals": "109:65",
+          "goalDifference": "+44",
+          "points": "10:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "HSG Neuenburg/Bockhorn II",
+          "games": 5,
+          "wins": 5,
+          "draws": 0,
+          "losses": 0,
+          "goals": "155:118",
+          "goalDifference": "+37",
+          "points": "10:0",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "Oldenburger TB",
+          "games": 5,
+          "wins": 3,
+          "draws": 1,
+          "losses": 1,
+          "goals": "127:121",
+          "goalDifference": "+6",
+          "points": "7:3",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "SG Buntentor/Neustadt",
+          "games": 5,
+          "wins": 3,
+          "draws": 0,
+          "losses": 2,
+          "goals": "130:116",
+          "goalDifference": "+14",
+          "points": "6:4",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "HSG Hude/Falkenburg II",
+          "games": 6,
+          "wins": 1,
+          "draws": 2,
+          "losses": 3,
+          "goals": "131:144",
+          "goalDifference": "-13",
+          "points": "4:8",
+          "own": false
+        },
+        {
+          "rank": 6,
+          "team": "Harpstedter TB",
+          "games": 4,
+          "wins": 1,
+          "draws": 0,
+          "losses": 3,
+          "goals": "81:106",
+          "goalDifference": "-25",
+          "points": "2:6",
+          "own": false
+        },
+        {
+          "rank": 7,
+          "team": "TvdH Oldenburg II",
+          "games": 5,
+          "wins": 1,
+          "draws": 0,
+          "losses": 4,
+          "goals": "100:122",
+          "goalDifference": "-22",
+          "points": "2:8",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "TS Woltmershausen II",
+          "games": 5,
+          "wins": 1,
+          "draws": 0,
+          "losses": 4,
+          "goals": "108:136",
+          "goalDifference": "-28",
+          "points": "2:8",
+          "own": false
+        },
+        {
+          "rank": 9,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 4,
+          "wins": 0,
+          "draws": 1,
+          "losses": 3,
+          "goals": "93:106",
+          "goalDifference": "-13",
+          "points": "1:7",
+          "own": true
+        },
+        {
+          "rank": 10,
+          "team": "VfL Edewecht",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "22153",
+      "start": "2026-09-06T11:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Hude/Falkenburg II",
+      "score": "24:24",
+      "league": "Regionsliga Frauen West",
+      "isHome": true
+    },
+    {
+      "number": "22161",
+      "start": "2026-09-27T17:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Harpstedt, SZ",
+      "home": "Harpstedter TB",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "21:16",
+      "league": "Regionsliga Frauen West",
+      "isHome": false
+    },
+    {
+      "number": "22171",
+      "start": "2026-11-01T14:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG Buntentor/Neustadt",
+      "score": "31:35",
+      "league": "Regionsliga Frauen West",
+      "isHome": true
+    },
+    {
+      "number": "22173",
+      "start": "2026-11-07T14:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Zetel-Neuenburg, Grundschule Neuenburg",
+      "home": "HSG Neuenburg/Bockhorn II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "26:22",
+      "league": "Regionsliga Frauen West",
+      "isHome": false
+    },
+    {
+      "number": "22162",
+      "start": "2026-11-18T19:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Woltmershausen, MZH Roter Sand",
+      "home": "TS Woltmershausen II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": false
+    },
+    {
+      "number": "22185",
+      "start": "2026-11-28T16:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Oldenburg-Nadorst, Flötenteich-Schule",
+      "home": "Oldenburger TB",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": false
+    },
+    {
+      "number": "22189",
+      "start": "2026-12-05T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TvdH Oldenburg II",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": true
+    },
+    {
+      "number": "22193",
+      "start": "2026-12-13T13:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Wilhelmshaven Nordfrost Arena (OT Siebethsburg)",
+      "home": "Wilhelmshavener HV II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": false
+    },
+    {
+      "number": "22199",
+      "start": "2026-12-20T13:50:00+01:00",
+      "timeKnown": true,
+      "venue": "Hude, SZ Huder Bach",
+      "home": "HSG Hude/Falkenburg II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": false
+    },
+    {
+      "number": "22210",
+      "start": "2027-02-07T13:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Harpstedter TB",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": true
+    },
+    {
+      "number": "22214",
+      "start": "2027-02-14T14:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TS Woltmershausen II",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": true
+    },
+    {
+      "number": "22219",
+      "start": "2027-02-21T15:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Neustadt, VH BTSN",
+      "home": "SG Buntentor/Neustadt",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": false
+    },
+    {
+      "number": "22222",
+      "start": "2027-03-06T19:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Neuenburg/Bockhorn II",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": true
+    },
+    {
+      "number": "22229",
+      "start": "2027-04-10T15:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Oldenburger TB",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": true
+    },
+    {
+      "number": "22233",
+      "start": "2027-04-17T19:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, SZ-Eversten",
+      "home": "TvdH Oldenburg II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": false
+    },
+    {
+      "number": "22239",
+      "start": "2027-04-24T17:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Wilhelmshavener HV II",
+      "score": null,
+      "league": "Regionsliga Frauen West",
+      "isHome": true
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:27.642Z"
+}

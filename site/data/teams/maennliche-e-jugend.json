@@ -1,0 +1,375 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=525825",
+      "table": [
+        {
+          "rank": null,
+          "team": "ATSV Habenhausen II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "TSG Hatten-Sandkrug",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": true
+        },
+        {
+          "rank": null,
+          "team": "TSV Ganderkesee",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "TS Woltmershausen II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "HSG Delmenhorst",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "HC Bremen II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "SG Findorff II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "Oldenburger TB",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        }
+      ]
+    },
+    {
+      "name": "Regionsliga männl./gemischte Jugend E VR B",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=489504",
+      "table": [
+        {
+          "rank": null,
+          "team": "TvdH Oldenburg",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "JSG Wilhelmshaven II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "SG SV F-fehn./TuS P-fehn",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "TSG Hatten-Sandkrug",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": true
+        },
+        {
+          "rank": null,
+          "team": "Oldenburger TB",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "31123",
+      "start": "2026-08-30T12:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Oldenburger TB",
+      "score": "2:0",
+      "league": "Regionsliga männl./gemischte Jugend E VR B",
+      "isHome": true
+    },
+    {
+      "number": "31125",
+      "start": "2026-09-05T14:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Bad Zwischenahn-Petersfehn, SPZ",
+      "home": "SG SV F-fehn./TuS P-fehn",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "2:0",
+      "league": "Regionsliga männl./gemischte Jugend E VR B",
+      "isHome": false
+    },
+    {
+      "number": "31132",
+      "start": "2026-09-20T10:35:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TvdH Oldenburg",
+      "score": "0:2",
+      "league": "Regionsliga männl./gemischte Jugend E VR B",
+      "isHome": true
+    },
+    {
+      "number": "31133",
+      "start": "2026-09-27T12:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Wilhelmshaven Nordfrost Arena (OT Siebethsburg)",
+      "home": "JSG Wilhelmshaven II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "2:0",
+      "league": "Regionsliga männl./gemischte Jugend E VR B",
+      "isHome": false
+    },
+    {
+      "number": "30542",
+      "start": "2026-11-01T12:25:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Woltmershausen, MZH Roter Sand",
+      "home": "TS Woltmershausen II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "0:2",
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": false
+    },
+    {
+      "number": "30546",
+      "start": "2026-11-08T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG Findorff II",
+      "score": "2:0",
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": true
+    },
+    {
+      "number": "30550",
+      "start": "2026-11-22T11:20:00+01:00",
+      "timeKnown": true,
+      "venue": "Ganderkesee, SH (neu)",
+      "home": "TSV Ganderkesee",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": false
+    },
+    {
+      "number": "30553",
+      "start": "2026-11-29T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "ATSV Habenhausen II",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": true
+    },
+    {
+      "number": "30557",
+      "start": "2026-12-13T10:35:00+01:00",
+      "timeKnown": true,
+      "venue": "Sportbetonte Oberschule an der Ronzelenstr. Halle 1",
+      "home": "HC Bremen II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": false
+    },
+    {
+      "number": "30563",
+      "start": "2026-12-20T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Oldenburger TB",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": true
+    },
+    {
+      "number": "30566",
+      "start": "2027-01-10T11:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Delmenhorst, SH Am Stadion - Neu",
+      "home": "HSG Delmenhorst",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": false
+    },
+    {
+      "number": "30570",
+      "start": "2027-01-24T14:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TS Woltmershausen II",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": true
+    },
+    {
+      "number": "30575",
+      "start": "2027-02-14T17:55:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Findorff, BSA Findorff Nürnberger Str.",
+      "home": "SG Findorff II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": false
+    },
+    {
+      "number": "30577",
+      "start": "2027-02-21T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TSV Ganderkesee",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": true
+    },
+    {
+      "number": "30582",
+      "start": "2027-03-06T11:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Habenhausen, Hinni-Schwenker-Halle",
+      "home": "ATSV Habenhausen II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": false
+    },
+    {
+      "number": "30585",
+      "start": "2027-03-14T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HC Bremen II",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": true
+    },
+    {
+      "number": "30591",
+      "start": "2027-04-11T13:40:00+02:00",
+      "timeKnown": true,
+      "venue": "Oldenburg-Haarentor, VSH I OTB",
+      "home": "Oldenburger TB",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": false
+    },
+    {
+      "number": "30592",
+      "start": "2027-04-18T10:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Delmenhorst",
+      "score": null,
+      "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
+      "isHome": true
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:28.065Z"
+}

@@ -1,0 +1,398 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Regionsliga männl. Jugend D HR West",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=525799",
+      "table": [
+        {
+          "rank": 1,
+          "team": "SG SV F-fehn./TuS P-fehn",
+          "games": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals": "60:43",
+          "goalDifference": "+17",
+          "points": "4:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals": "41:35",
+          "goalDifference": "+6",
+          "points": "2:0",
+          "own": true
+        },
+        {
+          "rank": 3,
+          "team": "VfL Rastede",
+          "games": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goals": "56:51",
+          "goalDifference": "+5",
+          "points": "2:2",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "HSG Varel II",
+          "games": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goals": "47:51",
+          "goalDifference": "-4",
+          "points": "2:2",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "Harpstedter TB",
+          "games": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goals": "56:60",
+          "goalDifference": "-4",
+          "points": "2:2",
+          "own": false
+        },
+        {
+          "rank": 6,
+          "team": "TSV Ganderkesee",
+          "games": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "goalDifference": "0",
+          "points": "0:0",
+          "own": false
+        },
+        {
+          "rank": 7,
+          "team": "SV Eintracht Wiefelstede",
+          "games": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goals": "16:30",
+          "goalDifference": "-14",
+          "points": "0:2",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "JSG Wilhelmshaven",
+          "games": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals": "41:47",
+          "goalDifference": "-6",
+          "points": "0:4",
+          "own": false
+        }
+      ]
+    },
+    {
+      "name": "Regionsoberliga männliche Jugend D VR C",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=506228",
+      "table": [
+        {
+          "rank": 1,
+          "team": "TvdH Oldenburg",
+          "games": 5,
+          "wins": 5,
+          "draws": 0,
+          "losses": 0,
+          "goals": "138:67",
+          "goalDifference": "+71",
+          "points": "10:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "JSG Hasbruch",
+          "games": 5,
+          "wins": 4,
+          "draws": 0,
+          "losses": 1,
+          "goals": "154:125",
+          "goalDifference": "+29",
+          "points": "8:2",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "HG Jever/Schortens",
+          "games": 5,
+          "wins": 3,
+          "draws": 0,
+          "losses": 2,
+          "goals": "186:190",
+          "goalDifference": "-4",
+          "points": "6:4",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "TvdH Oldenburg II",
+          "games": 5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "goals": "148:129",
+          "goalDifference": "+19",
+          "points": "4:6",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 5,
+          "wins": 1,
+          "draws": 0,
+          "losses": 4,
+          "goals": "127:199",
+          "goalDifference": "-72",
+          "points": "2:8",
+          "own": true
+        },
+        {
+          "rank": 6,
+          "team": "Elsflether TB",
+          "games": 5,
+          "wins": 0,
+          "draws": 0,
+          "losses": 5,
+          "goals": "92:135",
+          "goalDifference": "-43",
+          "points": "0:10",
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "18043",
+      "start": "2026-08-30T10:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TvdH Oldenburg",
+      "score": "12:54",
+      "league": "Regionsoberliga männliche Jugend D VR C",
+      "isHome": true
+    },
+    {
+      "number": "18045",
+      "start": "2026-09-06T10:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Jever, SZ",
+      "home": "HG Jever/Schortens",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "44:38",
+      "league": "Regionsoberliga männliche Jugend D VR C",
+      "isHome": false
+    },
+    {
+      "number": "18049",
+      "start": "2026-09-13T10:40:00+02:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, SZ-Eversten",
+      "home": "TvdH Oldenburg II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "40:29",
+      "league": "Regionsoberliga männliche Jugend D VR C",
+      "isHome": false
+    },
+    {
+      "number": "18052",
+      "start": "2026-09-20T09:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Elsflether TB",
+      "score": "26:23",
+      "league": "Regionsoberliga männliche Jugend D VR C",
+      "isHome": true
+    },
+    {
+      "number": "18053",
+      "start": "2026-10-01T17:45:00+02:00",
+      "timeKnown": true,
+      "venue": "Bookholzberg, SZ Süd",
+      "home": "JSG Hasbruch",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "38:22",
+      "league": "Regionsoberliga männliche Jugend D VR C",
+      "isHome": false
+    },
+    {
+      "number": "17403",
+      "start": "2026-11-03T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Harpstedt, SZ",
+      "home": "Harpstedter TB",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "35:41",
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "17409",
+      "start": "2026-11-22T17:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Bad Zwischenahn-Petersfehn, SPZ",
+      "home": "SG SV F-fehn./TuS P-fehn",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "17413",
+      "start": "2026-11-29T15:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Varel, SH Manfred-Schmidt",
+      "home": "HSG Varel II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "17417",
+      "start": "2026-12-13T11:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Wilhelmshaven, Sporthalle IGS (OT Siebethsburg)",
+      "home": "JSG Wilhelmshaven",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "17419",
+      "start": "2026-12-18T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TSV Ganderkesee",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "17423",
+      "start": "2026-12-20T16:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "VfL Rastede",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "17424",
+      "start": "2027-01-09T14:50:00+01:00",
+      "timeKnown": true,
+      "venue": "Wiefelstede, SZ",
+      "home": "SV Eintracht Wiefelstede",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "17430",
+      "start": "2027-01-24T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Harpstedter TB",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "17435",
+      "start": "2027-02-14T17:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Ganderkesee, SH (alt)",
+      "home": "TSV Ganderkesee",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "17440",
+      "start": "2027-02-21T16:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG SV F-fehn./TuS P-fehn",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "17444",
+      "start": "2027-03-07T12:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Varel II",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "17446",
+      "start": "2027-03-14T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "JSG Wilhelmshaven",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "17450",
+      "start": "2027-04-11T10:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Alt Rastede, SH",
+      "home": "VfL Rastede",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "17456",
+      "start": "2027-04-24T15:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SV Eintracht Wiefelstede",
+      "score": null,
+      "league": "Regionsliga männl. Jugend D HR West",
+      "isHome": true
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:27.959Z"
+}

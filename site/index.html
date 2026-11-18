@@ -26,7 +26,6 @@
     <meta name="twitter:image" content="https://handball.tsg-hatten-sandkrug.de/assets/img/og-default.png">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsOrganization","@id":"https://handball.tsg-hatten-sandkrug.de/#organization","name":"Handballabteilung der TSG Hatten-Sandkrug e.V.","alternateName":"TSG Handball","sport":"Handball","url":"https://handball.tsg-hatten-sandkrug.de/","logo":"https://handball.tsg-hatten-sandkrug.de/assets/img/tsg-crest.png","foundingDate":"1968","address":{"@type":"PostalAddress","streetAddress":"Schultredde","postalCode":"26209","addressLocality":"Hatten","addressCountry":"DE"},"parentOrganization":{"@type":"SportsClub","name":"TSG Hatten-Sandkrug e.V.","url":"https://www.tsg-hatten-sandkrug.de/"},"sameAs":["https://www.instagram.com/tsghattensandkrug/"]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"TSG Handball · TSG Hatten-Sandkrug e.V.","url":"https://handball.tsg-hatten-sandkrug.de/","inLanguage":"de","publisher":{"@id":"https://handball.tsg-hatten-sandkrug.de/#organization"}}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsEvent","name":"TSG Hatten-Sandkrug – HC Bremen","sport":"Handball","startDate":"2026-11-14T19:30:00+01:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Sportzentrum Sandkrug","address":{"@type":"PostalAddress","streetAddress":"Schultredde","postalCode":"26209","addressLocality":"Hatten","addressCountry":"DE"}},"homeTeam":{"@type":"SportsTeam","name":"TSG Hatten-Sandkrug 1. Herren"},"awayTeam":{"@type":"SportsTeam","name":"HC Bremen"},"organizer":{"@id":"https://handball.tsg-hatten-sandkrug.de/#organization"},"offers":{"@type":"Offer","price":"6.00","priceCurrency":"EUR","url":"https://handball.tsg-hatten-sandkrug.de/heimspiele/"}}</script>
 </head>
 <body>
     <a class="skip-link" href="#main">Zum Inhalt springen</a>
@@ -110,9 +109,9 @@
         <h1 class="visually-hidden">Handball bei der TSG Hatten-Sandkrug</h1>
         <section class="match-stage" aria-label="Nächstes Heimspiel">
             <div class="container match-stage__inner">
-                <div class="match-stage__content" data-upcoming data-limit="1">
-                    <div class="match-stage__fixture" data-start="2026-11-14T19:30:00+01:00">
-                        <p class="kicker">Nächstes Heimspiel · Oberliga Männer Nord</p>
+                <div class="match-stage__content" data-next-home-match="data/teams/1-herren.json">
+                    <div class="match-stage__fixture" data-match hidden>
+                        <p class="kicker">Nächstes Heimspiel · <span data-match-league></span></p>
                         <h2 class="match-stage__title">
                             <span class="match-stage__team">
                                 <img class="match-stage__crest" src="assets/img/tsg-crest.webp" alt="" width="134" height="133">
@@ -120,14 +119,16 @@
                             </span>
                             <span class="match-stage__versus"><span aria-hidden="true">vs</span><span class="visually-hidden">gegen</span></span>
                             <span class="match-stage__team match-stage__team--guest">
-                                <span class="media media--team-crest match-stage__crest"><img class="media__image" src="assets/placeholders/placeholder-team-crest.svg" alt="" width="200" height="200" loading="eager" decoding="async"></span>                        <span>HC Bremen</span>
+                                <span class="media media--team-crest match-stage__crest"><img class="media__image" src="assets/placeholders/placeholder-team-crest.svg" alt="" width="200" height="200" loading="eager" decoding="async"></span>
+                                <span data-match-guest></span>
                             </span>
                         </h2>
                         <p class="match-stage__meta">
-                            <time datetime="2026-11-14T19:30:00+01:00">Samstag, 14. November 2026 · 19:30 Uhr</time><br>
-                            Sportzentrum Sandkrug                </p>
-                        <div class="countdown" data-countdown data-target="2026-11-14T19:30:00+01:00">
-                            <p class="visually-hidden">Anwurf am Samstag, 14. November 2026 um 19:30 Uhr.</p>
+                            <time data-match-time></time><br>
+                            <span data-match-venue></span>
+                        </p>
+                        <div class="countdown" data-match-countdown>
+                            <p class="visually-hidden" data-match-kickoff-text></p>
                             <div class="countdown__grid" aria-hidden="true">
                                 <div class="countdown__unit"><span class="countdown__value" data-unit="days">–</span><span class="countdown__label">Tage</span></div>
                                 <div class="countdown__unit"><span class="countdown__value" data-unit="hours">–</span><span class="countdown__label">Std</span></div>
@@ -138,35 +139,8 @@
                         <div class="button-row">
                             <a class="button button--light" href="heimspiele/">Tickets und Anfahrt</a>                    <a class="button button--outline-light" href="https://live.hvnb-online.de/tsv-hatten-sandkrug-h1" target="_blank" rel="noopener">Livestream<span class="visually-hidden"> (öffnet in neuem Tab)</span></a>                    <a class="button button--outline-light" href="https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/teamPortrait?teamtable=2220639&amp;pageState=vorrunde&amp;championship=HVNB+26%2F27&amp;group=489136" target="_blank" rel="noopener">Spielplan<span class="visually-hidden"> (öffnet in neuem Tab)</span></a>                </div>
                     </div>
-                    <div class="match-stage__fixture" data-start="2026-12-05T19:30:00+01:00" hidden>
-                        <p class="kicker">Nächstes Heimspiel · Oberliga Männer Nord</p>
-                        <h2 class="match-stage__title">
-                            <span class="match-stage__team">
-                                <img class="match-stage__crest" src="assets/img/tsg-crest.webp" alt="" width="134" height="133">
-                                <span>TSG Hatten-Sandkrug</span>
-                            </span>
-                            <span class="match-stage__versus"><span aria-hidden="true">vs</span><span class="visually-hidden">gegen</span></span>
-                            <span class="match-stage__team match-stage__team--guest">
-                                <span class="media media--team-crest match-stage__crest"><img class="media__image" src="assets/placeholders/placeholder-team-crest.svg" alt="" width="200" height="200" loading="eager" decoding="async"></span>                        <span>Wilhelmshavener HV II</span>
-                            </span>
-                        </h2>
-                        <p class="match-stage__meta">
-                            <time datetime="2026-12-05T19:30:00+01:00">Samstag, 5. Dezember 2026 · 19:30 Uhr</time><br>
-                            Sportzentrum Sandkrug                </p>
-                        <div class="countdown" data-countdown data-target="2026-12-05T19:30:00+01:00">
-                            <p class="visually-hidden">Anwurf am Samstag, 5. Dezember 2026 um 19:30 Uhr.</p>
-                            <div class="countdown__grid" aria-hidden="true">
-                                <div class="countdown__unit"><span class="countdown__value" data-unit="days">–</span><span class="countdown__label">Tage</span></div>
-                                <div class="countdown__unit"><span class="countdown__value" data-unit="hours">–</span><span class="countdown__label">Std</span></div>
-                                <div class="countdown__unit"><span class="countdown__value" data-unit="minutes">–</span><span class="countdown__label">Min</span></div>
-                                <div class="countdown__unit"><span class="countdown__value" data-unit="seconds">–</span><span class="countdown__label">Sek</span></div>
-                            </div>
-                        </div>
-                        <div class="button-row">
-                            <a class="button button--light" href="heimspiele/">Tickets und Anfahrt</a>                    <a class="button button--outline-light" href="https://live.hvnb-online.de/tsv-hatten-sandkrug-h1" target="_blank" rel="noopener">Livestream<span class="visually-hidden"> (öffnet in neuem Tab)</span></a>                    <a class="button button--outline-light" href="https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/teamPortrait?teamtable=2220639&amp;pageState=vorrunde&amp;championship=HVNB+26%2F27&amp;group=489136" target="_blank" rel="noopener">Spielplan<span class="visually-hidden"> (öffnet in neuem Tab)</span></a>                </div>
-                    </div>
-                    <div class="match-stage__fixture" data-upcoming-empty hidden>
-                        <p class="kicker">Nächstes Heimspiel · Oberliga Männer Nord</p>
+                    <div class="match-stage__fixture" data-match-empty>
+                        <p class="kicker">Nächstes Heimspiel · 1. Herren</p>
                         <h2 class="match-stage__title">Das nächste Heimspiel folgt</h2>
                         <p class="match-stage__meta">Sobald der Spielplan steht, findest du hier Termin und Gegner.</p>
                         <div class="button-row">

@@ -5,7 +5,8 @@ subdomain (final name still open). Requirements: `TSG-Handball_Lastenheft.pdf`,
 design: `TSG-Handball_Desktop.pdf` and `TSG-Handball_Mobil.pdf`.
 
 **Plain HTML, CSS and a little JavaScript. No build step, no PHP, no database.**
-Everything in `site/` is published exactly as it is.
+Everything in `site/` is published exactly as it is. The only script outside `site/` is
+the daily schedule import (see *Schedules and standings*), which writes JSON into `site/data/`.
 
 ## Structure
 
@@ -15,16 +16,18 @@ site/                       the website – upload this folder
 ├── <page>/index.html       one folder per page, e.g. kontakt/index.html → /kontakt/
 ├── neuigkeiten/<slug>/     one folder per article; thema/<topic>/ holds the filtered lists
 ├── mannschaften/<team>/    one folder per team; gruppe/<group>/ holds the filtered lists
+├── data/teams/<team>.json  schedules and standings, written by the import – do not edit
 ├── 404.html, robots.txt, sitemap.xml, llms.txt
 ├── .htaccess               Strato settings (HTTPS, 404, caching); ignored by GitHub Pages
 └── assets/
     ├── css/main.css        imports tokens.css (all colours, sizes, durations), base,
     │                       layout, components/ (one file per component), utilities
-    ├── js/main.js          ES modules in js/modules/ (menu, countdown, past matches, org panel)
+    ├── js/main.js          ES modules in js/modules/ (menu, countdown, schedules, video, …)
     ├── icons/              Lucide icons (ISC licence), used as CSS masks
     ├── placeholders/       placeholder images (Lastenheft 8.1)
     ├── fonts/              Barlow Condensed, Carlito (SIL Open Font License)
     └── img/                crest, favicon, Open Graph image
+scripts/                    schedule import: import-hvnb.mjs, teams.json, sources/
 docs/                       redirects to set up on the club website
 ```
 
@@ -53,7 +56,7 @@ for the old value.
 | Menu, header or footer | every `index.html` and `404.html` (identical block in each file) |
 | Person: name or e-mail | `kontakt/`, `uebungsleiter/`, the team pages, `abteilung/` (organisation chart), `schiedsrichter/`, `mitmachen/`, `foerderkreis/`, `1-herren/` |
 | Training times or coaches | `mannschaften/index.html`, `mannschaften/gruppe/*/`, the team page, `uebungsleiter/` |
-| Next home match of the 1. Herren | `index.html` (stage), `heimspiele/` |
+| Next home match of the 1. Herren | automatic (see *Schedules and standings*); `heimspiele/` by hand |
 | New article | new folder `neuigkeiten/<slug>/` (copy an existing article), plus `neuigkeiten/index.html`, `index.html` (news block) and `sitemap.xml` |
 | Event | `termine/index.html` (pattern below) |
 | Downloads | `kontakt/` (Formulare), `kids-cup/`, `heimspiele/` (Hallenheft) |
@@ -85,6 +88,32 @@ placeholder in the `src` of the `<img>`; keep `width`/`height` and the surroundi
 **New page:** copy the folder of a similar page, change `<title>`, description,
 canonical/`og:url`, breadcrumb and content, keep the relative paths matching the folder
 depth, then add it to the menu (all files, if it belongs there) and to `sitemap.xml`.
+
+## Schedules and standings
+
+Fixtures, results and league tables come from the HVNB's nuLiga and are imported, not
+edited by hand.
+
+- `scripts/import-hvnb.mjs` reads `scripts/teams.json` and writes one file per team to
+  `site/data/teams/<slug>.json`. GitHub runs it every morning and on weekend evenings
+  (`.github/workflows/import-hvnb.yml`, also startable by hand under *Actions*) and commits
+  changes, which then publishes the site. Locally: `node scripts/import-hvnb.mjs` (Node 20+,
+  no packages).
+- In the browser, `team-schedule.js` fills the section *Spielplan und Tabelle* on each team
+  page (`data-team-schedule`) and `next-home-match.js` fills the stage on the home page with
+  the next home match of the 1. Herren. Both only read the JSON via `team-data.js`.
+- **New season / new round:** nuLiga issues new group numbers. Update the `group` (and
+  `championship`, e.g. `HVNB 27/28`) per team in `scripts/teams.json` – the number is in the
+  team's nuLiga link (`group=…`). A team with a preliminary and a main round lists both,
+  current round first. `nuligaName` is the team's exact name in nuLiga, e.g.
+  `TSG Hatten-Sandkrug II`.
+- **New team:** add it to `scripts/teams.json` and copy the `data-team-schedule` section from
+  another team page, with the matching JSON path.
+- **Other data source:** `scripts/sources/nuliga.mjs` is the only file that knows nuLiga.
+  A replacement only needs to export `fetchLeague(league)` with the shape described at the
+  top of that file; then change the import in `import-hvnb.mjs`.
+- **Strato:** the import commits to the repository, so the JSON files on Strato are only as
+  fresh as the last upload of `site/data/`.
 
 ## Conventions
 

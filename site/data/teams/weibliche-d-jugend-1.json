@@ -1,0 +1,398 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Regionsliga weibl. Jugend D HR West",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=526421",
+      "table": [
+        {
+          "rank": 1,
+          "team": "JSG Wilhelmshaven II",
+          "games": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals": "79:49",
+          "goalDifference": "+30",
+          "points": "4:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "TvdH Oldenburg",
+          "games": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals": "35:24",
+          "goalDifference": "+11",
+          "points": "2:0",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "TV Neerstedt",
+          "games": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals": "25:21",
+          "goalDifference": "+4",
+          "points": "2:0",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "TuS Augustfehn",
+          "games": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goals": "55:43",
+          "goalDifference": "+12",
+          "points": "2:2",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "HSG Altes Amt Friesoythe",
+          "games": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goals": "68:65",
+          "goalDifference": "+3",
+          "points": "2:2",
+          "own": false
+        },
+        {
+          "rank": 6,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goals": "33:39",
+          "goalDifference": "-6",
+          "points": "0:2",
+          "own": true
+        },
+        {
+          "rank": 7,
+          "team": "VfL Edewecht",
+          "games": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goals": "24:35",
+          "goalDifference": "-11",
+          "points": "0:2",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "VfL Oldenburg II",
+          "games": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals": "38:81",
+          "goalDifference": "-43",
+          "points": "0:4",
+          "own": false
+        }
+      ]
+    },
+    {
+      "name": "Regionsliga weibl. Jugend D VR C",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=506396",
+      "table": [
+        {
+          "rank": 1,
+          "team": "VfL Rastede",
+          "games": 5,
+          "wins": 5,
+          "draws": 0,
+          "losses": 0,
+          "goals": "212:134",
+          "goalDifference": "+78",
+          "points": "10:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "TvdH Oldenburg",
+          "games": 5,
+          "wins": 4,
+          "draws": 0,
+          "losses": 1,
+          "goals": "144:117",
+          "goalDifference": "+27",
+          "points": "8:2",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 5,
+          "wins": 3,
+          "draws": 0,
+          "losses": 2,
+          "goals": "143:111",
+          "goalDifference": "+32",
+          "points": "6:4",
+          "own": true
+        },
+        {
+          "rank": 4,
+          "team": "VfL Edewecht",
+          "games": 5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "goals": "132:131",
+          "goalDifference": "+1",
+          "points": "4:6",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "VfL Oldenburg II",
+          "games": 5,
+          "wins": 1,
+          "draws": 0,
+          "losses": 4,
+          "goals": "128:138",
+          "goalDifference": "-10",
+          "points": "2:8",
+          "own": false
+        },
+        {
+          "rank": 6,
+          "team": "HSG Altes Amt Friesoythe II",
+          "games": 5,
+          "wins": 0,
+          "draws": 0,
+          "losses": 5,
+          "goals": "37:165",
+          "goalDifference": "-128",
+          "points": "0:10",
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "27142",
+      "start": "2026-08-29T15:15:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "VfL Rastede",
+      "score": "25:38",
+      "league": "Regionsliga weibl. Jugend D VR C",
+      "isHome": true
+    },
+    {
+      "number": "27146",
+      "start": "2026-09-05T14:55:00+02:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, SZ-Eversten",
+      "home": "TvdH Oldenburg",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "29:21",
+      "league": "Regionsliga weibl. Jugend D VR C",
+      "isHome": false
+    },
+    {
+      "number": "27149",
+      "start": "2026-09-13T10:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Altes Amt Friesoythe II",
+      "score": "34:3",
+      "league": "Regionsliga weibl. Jugend D VR C",
+      "isHome": true
+    },
+    {
+      "number": "27150",
+      "start": "2026-09-20T12:10:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "VfL Oldenburg II",
+      "score": "34:18",
+      "league": "Regionsliga weibl. Jugend D VR C",
+      "isHome": true
+    },
+    {
+      "number": "27154",
+      "start": "2026-09-27T11:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Edewecht, am Gymnasium",
+      "home": "VfL Edewecht",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "23:29",
+      "league": "Regionsliga weibl. Jugend D VR C",
+      "isHome": false
+    },
+    {
+      "number": "28265",
+      "start": "2026-11-08T14:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Altes Amt Friesoythe",
+      "score": "33:39",
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "28270",
+      "start": "2026-11-22T14:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, Robert-Schumann-Halle",
+      "home": "VfL Oldenburg II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "28273",
+      "start": "2026-11-29T14:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TV Neerstedt",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "28275",
+      "start": "2026-12-03T17:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Edewecht, Heinz zu Jührden - Halle",
+      "home": "VfL Edewecht",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "28277",
+      "start": "2026-12-13T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, SZ-Eversten",
+      "home": "TvdH Oldenburg",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "28280",
+      "start": "2026-12-19T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TuS Augustfehn",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "28286",
+      "start": "2027-01-10T13:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Wilhelmshaven Sporthalle Nogatstraße (OT Fedderwardergroden)",
+      "home": "JSG Wilhelmshaven II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "28289",
+      "start": "2027-01-24T10:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "VfL Edewecht",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "28295",
+      "start": "2027-02-14T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Friesoythe, SH Großen Kamp",
+      "home": "HSG Altes Amt Friesoythe",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "28299",
+      "start": "2027-02-21T14:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "VfL Oldenburg II",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "28303",
+      "start": "2027-03-07T16:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Neerstedt, SZ",
+      "home": "TV Neerstedt",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "28305",
+      "start": "2027-03-14T14:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TvdH Oldenburg",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": true
+    },
+    {
+      "number": "28311",
+      "start": "2027-04-11T13:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Apen-Augustfehn, HRS",
+      "home": "TuS Augustfehn",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": false
+    },
+    {
+      "number": "28314",
+      "start": "2027-04-18T13:45:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "JSG Wilhelmshaven II",
+      "score": null,
+      "league": "Regionsliga weibl. Jugend D HR West",
+      "isHome": true
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:28.315Z"
+}

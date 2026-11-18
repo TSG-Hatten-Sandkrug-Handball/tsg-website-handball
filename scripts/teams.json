@@ -1,0 +1,17 @@
+{
+  "teams": [
+    { "slug": "1-herren", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HVNB 26/27", "group": "489136" }] },
+    { "slug": "2-herren", "nuligaName": "TSG Hatten-Sandkrug II", "leagues": [{ "championship": "HRBN 26/27", "group": "489108" }] },
+    { "slug": "damen", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "489407" }] },
+    { "slug": "maennliche-a-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "489106" }] },
+    { "slug": "maennliche-b-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HVNB 26/27", "group": "489568" }] },
+    { "slug": "maennliche-c-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HVNB 26/27", "group": "488980" }] },
+    { "slug": "maennliche-d-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "525799" }, { "championship": "HRBN 26/27", "group": "506228" }] },
+    { "slug": "maennliche-e-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "525825" }, { "championship": "HRBN 26/27", "group": "489504" }] },
+    { "slug": "weibliche-b-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "489856" }] },
+    { "slug": "weibliche-c-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "489852" }] },
+    { "slug": "weibliche-d-jugend-1", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "526421" }, { "championship": "HRBN 26/27", "group": "506396" }] },
+    { "slug": "weibliche-d-jugend-2", "nuligaName": "TSG Hatten-Sandkrug II", "leagues": [{ "championship": "HRBN 26/27", "group": "526424" }, { "championship": "HRBN 26/27", "group": "506399" }] },
+    { "slug": "weibliche-e-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "526431" }] }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Regionsoberliga weibliche Jugend B West",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=489856",
+      "table": [
+        {
+          "rank": 1,
+          "team": "TS Woltmershausen",
+          "games": 7,
+          "wins": 7,
+          "draws": 0,
+          "losses": 0,
+          "goals": "149:102",
+          "goalDifference": "+47",
+          "points": "14:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "VfL Oldenburg III",
+          "games": 6,
+          "wins": 4,
+          "draws": 0,
+          "losses": 2,
+          "goals": "144:134",
+          "goalDifference": "+10",
+          "points": "8:4",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "HSG Unterweser",
+          "games": 6,
+          "wins": 4,
+          "draws": 0,
+          "losses": 2,
+          "goals": "134:127",
+          "goalDifference": "+7",
+          "points": "8:4",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "SG Findorff",
+          "games": 6,
+          "wins": 4,
+          "draws": 0,
+          "losses": 2,
+          "goals": "115:113",
+          "goalDifference": "+2",
+          "points": "8:4",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "HSG Varel II",
+          "games": 6,
+          "wins": 3,
+          "draws": 1,
+          "losses": 2,
+          "goals": "165:142",
+          "goalDifference": "+23",
+          "points": "7:5",
+          "own": false
+        },
+        {
+          "rank": 6,
+          "team": "JSG Hasbruch",
+          "games": 8,
+          "wins": 3,
+          "draws": 1,
+          "losses": 4,
+          "goals": "175:179",
+          "goalDifference": "-4",
+          "points": "7:9",
+          "own": false
+        },
+        {
+          "rank": 7,
+          "team": "Oldenburger TB",
+          "games": 7,
+          "wins": 3,
+          "draws": 0,
+          "losses": 4,
+          "goals": "156:154",
+          "goalDifference": "+2",
+          "points": "6:8",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "goals": "65:57",
+          "goalDifference": "+8",
+          "points": "4:6",
+          "own": true
+        },
+        {
+          "rank": 9,
+          "team": "TvdH Oldenburg",
+          "games": 7,
+          "wins": 2,
+          "draws": 0,
+          "losses": 5,
+          "goals": "142:158",
+          "goalDifference": "-16",
+          "points": "4:10",
+          "own": false
+        },
+        {
+          "rank": 10,
+          "team": "TuS Komet Arsten",
+          "games": 8,
+          "wins": 0,
+          "draws": 0,
+          "losses": 8,
+          "goals": "151:230",
+          "goalDifference": "-79",
+          "points": "0:16",
+          "own": false
+        },
+        {
+          "rank": 11,
+          "team": "VfL Rastede II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": 12,
+          "team": "VfL Edewecht",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "25411",
+      "start": "2026-09-05T16:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Neu Rastede, SH",
+      "home": "VfL Rastede II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25417",
+      "start": "2026-09-12T15:15:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TS Woltmershausen",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    },
+    {
+      "number": "25424",
+      "start": "2026-09-19T16:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, Robert-Schumann-Halle",
+      "home": "VfL Oldenburg III",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "16:15",
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25430",
+      "start": "2026-09-27T14:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Oldenburg-Haarentor, VSH I OTB",
+      "home": "Oldenburger TB",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "21:23",
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25441",
+      "start": "2026-10-31T20:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Findorff, BSA Findorff Nürnberger Str.",
+      "home": "SG Findorff",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25443",
+      "start": "2026-11-07T11:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "JSG Hasbruch",
+      "score": "27:20",
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    },
+    {
+      "number": "25457",
+      "start": "2026-11-28T16:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TuS Komet Arsten",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    },
+    {
+      "number": "25404",
+      "start": "2026-12-03T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Unterweser",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    },
+    {
+      "number": "25464",
+      "start": "2026-12-06T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Varel, SH Manfred-Schmidt",
+      "home": "HSG Varel II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25450",
+      "start": "2026-12-10T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, SZ-Eversten",
+      "home": "TvdH Oldenburg",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25470",
+      "start": "2026-12-12T14:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Nordenham, SPZ Mitte",
+      "home": "HSG Unterweser",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25483",
+      "start": "2027-01-09T12:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Woltmershausen, MZH Roter Sand",
+      "home": "TS Woltmershausen",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25490",
+      "start": "2027-01-24T10:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "VfL Oldenburg III",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    },
+    {
+      "number": "25496",
+      "start": "2027-02-07T11:35:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Oldenburger TB",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    },
+    {
+      "number": "25507",
+      "start": "2027-02-21T10:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG Findorff",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    },
+    {
+      "number": "25509",
+      "start": "2027-03-07T15:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Bookholzberg, SZ Süd",
+      "home": "JSG Hasbruch",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25516",
+      "start": "2027-03-14T10:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TvdH Oldenburg",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    },
+    {
+      "number": "25523",
+      "start": "2027-04-11T14:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Bremen-Arsten, Vereinsporthalle TuS Komet Arsten",
+      "home": "TuS Komet Arsten",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": false
+    },
+    {
+      "number": "25530",
+      "start": "2027-04-17T11:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Varel II",
+      "score": null,
+      "league": "Regionsoberliga weibliche Jugend B West",
+      "isHome": true
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:28.134Z"
+}

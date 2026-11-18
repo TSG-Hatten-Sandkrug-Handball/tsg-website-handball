@@ -1,0 +1,333 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Regionsoberliga weibl. Jugend C Süd/West",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=489852",
+      "table": [
+        {
+          "rank": 1,
+          "team": "TvdH Oldenburg",
+          "games": 7,
+          "wins": 6,
+          "draws": 0,
+          "losses": 1,
+          "goals": "222:158",
+          "goalDifference": "+64",
+          "points": "12:2",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "TSV Ganderkesee",
+          "games": 6,
+          "wins": 5,
+          "draws": 0,
+          "losses": 1,
+          "goals": "171:121",
+          "goalDifference": "+50",
+          "points": "10:2",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "TS Woltmershausen",
+          "games": 6,
+          "wins": 5,
+          "draws": 0,
+          "losses": 1,
+          "goals": "180:134",
+          "goalDifference": "+46",
+          "points": "10:2",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "TV Neerstedt",
+          "games": 7,
+          "wins": 5,
+          "draws": 0,
+          "losses": 2,
+          "goals": "184:120",
+          "goalDifference": "+64",
+          "points": "10:4",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 7,
+          "wins": 4,
+          "draws": 0,
+          "losses": 3,
+          "goals": "211:134",
+          "goalDifference": "+77",
+          "points": "8:6",
+          "own": true
+        },
+        {
+          "rank": 6,
+          "team": "HSG PHOENIX",
+          "games": 6,
+          "wins": 3,
+          "draws": 0,
+          "losses": 3,
+          "goals": "164:138",
+          "goalDifference": "+26",
+          "points": "6:6",
+          "own": false
+        },
+        {
+          "rank": 7,
+          "team": "HSG Delmenhorst",
+          "games": 7,
+          "wins": 2,
+          "draws": 0,
+          "losses": 5,
+          "goals": "115:208",
+          "goalDifference": "-93",
+          "points": "4:10",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "BTB Oldenburg",
+          "games": 6,
+          "wins": 1,
+          "draws": 0,
+          "losses": 5,
+          "goals": "79:155",
+          "goalDifference": "-76",
+          "points": "2:10",
+          "own": false
+        },
+        {
+          "rank": 9,
+          "team": "JSG Hasbruch",
+          "games": 7,
+          "wins": 1,
+          "draws": 0,
+          "losses": 6,
+          "goals": "130:181",
+          "goalDifference": "-51",
+          "points": "2:12",
+          "own": false
+        },
+        {
+          "rank": 10,
+          "team": "TuS Komet Arsten",
+          "games": 7,
+          "wins": 1,
+          "draws": 0,
+          "losses": 6,
+          "goals": "107:214",
+          "goalDifference": "-107",
+          "points": "2:12",
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "26802",
+      "start": "2026-08-30T14:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Oldenburg, SZ-Eversten",
+      "home": "TvdH Oldenburg",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "27:26",
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    },
+    {
+      "number": "26814",
+      "start": "2026-09-13T11:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Hude, SZ Huder Bach",
+      "home": "JSG Hasbruch",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "11:27",
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    },
+    {
+      "number": "26821",
+      "start": "2026-09-20T17:10:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TuS Komet Arsten",
+      "score": "47:6",
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26827",
+      "start": "2026-09-26T12:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Neerstedt, SZ",
+      "home": "TV Neerstedt",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "25:22",
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    },
+    {
+      "number": "26833",
+      "start": "2026-10-04T10:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Oldenburg-Bürgerfelde, VSH BTB",
+      "home": "BTB Oldenburg",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "7:29",
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    },
+    {
+      "number": "26839",
+      "start": "2026-11-01T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG PHOENIX",
+      "score": "31:26",
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26845",
+      "start": "2026-11-08T11:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Woltmershausen, MZH Roter Sand",
+      "home": "TS Woltmershausen",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "32:29",
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    },
+    {
+      "number": "26851",
+      "start": "2026-11-21T19:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TSV Ganderkesee",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26863",
+      "start": "2026-12-05T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Delmenhorst",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26868",
+      "start": "2026-12-13T14:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TvdH Oldenburg",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26880",
+      "start": "2027-01-10T17:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "JSG Hasbruch",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26887",
+      "start": "2027-01-24T16:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Arsten, Vereinsporthalle TuS Komet Arsten",
+      "home": "TuS Komet Arsten",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    },
+    {
+      "number": "26893",
+      "start": "2027-02-06T16:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TV Neerstedt",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26899",
+      "start": "2027-02-14T16:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "BTB Oldenburg",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26905",
+      "start": "2027-02-20T12:25:00+01:00",
+      "timeKnown": true,
+      "venue": "Bassum, SH Neu SZ",
+      "home": "HSG PHOENIX",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    },
+    {
+      "number": "26911",
+      "start": "2027-03-07T10:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TS Woltmershausen",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": true
+    },
+    {
+      "number": "26917",
+      "start": "2027-03-13T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Ganderkesee, SH (alt)",
+      "home": "TSV Ganderkesee",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    },
+    {
+      "number": "26929",
+      "start": "2027-04-17T16:30:00+02:00",
+      "timeKnown": true,
+      "venue": "Delmenhorst, SH Am Wehrhahn",
+      "home": "HSG Delmenhorst",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsoberliga weibl. Jugend C Süd/West",
+      "isHome": false
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:28.205Z"
+}

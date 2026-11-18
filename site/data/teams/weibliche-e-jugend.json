@@ -1,0 +1,243 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Regionsklasse weibliche Jugend E HR West",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=526431",
+      "table": [
+        {
+          "rank": null,
+          "team": "HSG Neuenburg/Bockhorn",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "VfL Edewecht",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "SG SV F-fehn./TuS P-fehn II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "VfL Rastede",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "SG SV F-fehn./TuS P-fehn",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "TSG Hatten-Sandkrug",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": true
+        },
+        {
+          "rank": null,
+          "team": "JSG Wilhelmshaven II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
+          "team": "TuS Augustfehn",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "41462",
+      "start": "2026-11-08T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG SV F-fehn./TuS P-fehn II",
+      "score": "0:2",
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": true
+    },
+    {
+      "number": "41464",
+      "start": "2026-11-21T09:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Wilhelmshaven Sporthalle Nogatstraße (OT Fedderwardergroden)",
+      "home": "JSG Wilhelmshaven II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": false
+    },
+    {
+      "number": "41468",
+      "start": "2026-11-29T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "VfL Rastede",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": true
+    },
+    {
+      "number": "41470",
+      "start": "2026-12-06T10:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Edewecht, SH -Friedrichsfehn",
+      "home": "SG SV F-fehn./TuS P-fehn",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": false
+    },
+    {
+      "number": "41473",
+      "start": "2026-12-12T11:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Edewecht, am Gymnasium",
+      "home": "VfL Edewecht",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": false
+    },
+    {
+      "number": "41478",
+      "start": "2027-01-09T11:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Zetel-Neuenburg, Grundschule Neuenburg",
+      "home": "HSG Neuenburg/Bockhorn",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": false
+    },
+    {
+      "number": "41483",
+      "start": "2027-01-24T16:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG SV F-fehn./TuS P-fehn",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": true
+    },
+    {
+      "number": "41485",
+      "start": "2027-02-13T12:20:00+01:00",
+      "timeKnown": true,
+      "venue": "Bad Zwischenahn-Petersfehn, SPZ",
+      "home": "SG SV F-fehn./TuS P-fehn II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": false
+    },
+    {
+      "number": "41489",
+      "start": "2027-02-21T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "JSG Wilhelmshaven II",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": true
+    },
+    {
+      "number": "41490",
+      "start": "2027-03-06T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Neu Rastede, SH",
+      "home": "VfL Rastede",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": false
+    },
+    {
+      "number": "41495",
+      "start": "2027-03-14T14:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "VfL Edewecht",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": true
+    },
+    {
+      "number": "41501",
+      "start": "2027-04-18T11:45:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HSG Neuenburg/Bockhorn",
+      "score": null,
+      "league": "Regionsklasse weibliche Jugend E HR West",
+      "isHome": true
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:28.503Z"
+}

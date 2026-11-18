@@ -3,6 +3,8 @@ import { initCountdowns } from './modules/countdown.js';
 import { initUpcoming } from './modules/upcoming.js';
 import { initOrgPanel } from './modules/org-panel.js';
 import { initVideos } from './modules/video.js';
+import { initTeamSchedules } from './modules/team-schedule.js';
+import { initNextHomeMatch } from './modules/next-home-match.js';
 
 document.documentElement.classList.add('js');
 
@@ -11,3 +13,5 @@ initCountdowns();
 initUpcoming();
 initOrgPanel();
 initVideos();
+initTeamSchedules();
+initNextHomeMatch();

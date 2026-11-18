@@ -1,0 +1,41 @@
+# Imports schedules and standings from the HVNB (nuLiga) into site/data/teams/
+# and commits the result when something changed. Runs every morning and on
+# weekend evenings, when most results come in; can also be started by hand.
+name: Import HVNB data
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+    - cron: '0 21 * * 6,0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-hvnb
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/import-hvnb.mjs
+      # Runs even if a team failed: that team keeps its previous file, the
+      # others are still committed, and the run shows red so someone notices.
+      - name: Commit changed data
+        if: ${{ !cancelled() }}
+        run: |
+          git add site/data
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update HVNB schedules and standings"
+          git push

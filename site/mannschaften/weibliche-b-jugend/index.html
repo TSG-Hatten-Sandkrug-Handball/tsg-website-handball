@@ -157,6 +157,24 @@
                 </section>
             </div>
         </section>
+        <section class="section section--surface" aria-labelledby="schedule-title" data-team-schedule="../../data/teams/weibliche-b-jugend.json">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title-sm" id="schedule-title">Spielplan und Tabelle</h2>
+                    <p class="card__meta" data-team-updated></p>
+                </div>
+                <p class="muted" data-team-status>Spielplan und Tabelle werden geladen …</p>
+                <div class="split split--wide-start" data-team-content hidden>
+                    <div>
+                        <h3 class="label-heading">Kommende Spiele</h3>
+                        <ol class="fixture-list" role="list" data-team-fixtures></ol>
+                        <p class="card card--dashed" data-team-fixtures-empty hidden>Die nächsten Spiele stehen noch nicht fest.</p>
+                        <p class="last-result" data-team-last-result hidden></p>
+                    </div>
+                    <div class="stack stack--lg" data-team-tables></div>
+                </div>
+            </div>
+        </section>
         <section class="section" aria-labelledby="other-teams-title">
             <div class="container">
                 <h2 class="section-title-sm" id="other-teams-title">Weitere Mannschaften</h2>

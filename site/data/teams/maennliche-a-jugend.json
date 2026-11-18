@@ -1,0 +1,369 @@
+{
+  "team": "TSG Hatten-Sandkrug",
+  "source": "nuLiga (HVNB)",
+  "leagues": [
+    {
+      "name": "Landesliga männliche Jugend A",
+      "url": "https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa/groupPage?championship=HRBN%2026%2F27&group=489106",
+      "table": [
+        {
+          "rank": 1,
+          "team": "TS Hoykenkamp",
+          "games": 7,
+          "wins": 5,
+          "draws": 0,
+          "losses": 2,
+          "goals": "248:219",
+          "goalDifference": "+29",
+          "points": "10:4",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "Elsflether TB",
+          "games": 5,
+          "wins": 4,
+          "draws": 0,
+          "losses": 1,
+          "goals": "165:124",
+          "goalDifference": "+41",
+          "points": "8:2",
+          "own": false
+        },
+        {
+          "rank": 3,
+          "team": "SG Achim/Baden",
+          "games": 6,
+          "wins": 4,
+          "draws": 0,
+          "losses": 2,
+          "goals": "190:170",
+          "goalDifference": "+20",
+          "points": "8:4",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "TSG Hatten-Sandkrug",
+          "games": 4,
+          "wins": 3,
+          "draws": 0,
+          "losses": 1,
+          "goals": "160:146",
+          "goalDifference": "+14",
+          "points": "6:2",
+          "own": true
+        },
+        {
+          "rank": 5,
+          "team": "TuS Komet Arsten",
+          "games": 5,
+          "wins": 3,
+          "draws": 0,
+          "losses": 2,
+          "goals": "147:136",
+          "goalDifference": "+11",
+          "points": "6:4",
+          "own": false
+        },
+        {
+          "rank": 6,
+          "team": "TS Woltmershausen",
+          "games": 6,
+          "wins": 3,
+          "draws": 0,
+          "losses": 3,
+          "goals": "258:216",
+          "goalDifference": "+42",
+          "points": "6:6",
+          "own": false
+        },
+        {
+          "rank": 7,
+          "team": "HG Jever/Schortens",
+          "games": 5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "goals": "143:169",
+          "goalDifference": "-26",
+          "points": "4:6",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "Hagener SV",
+          "games": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 4,
+          "goals": "206:225",
+          "goalDifference": "-19",
+          "points": "4:8",
+          "own": false
+        },
+        {
+          "rank": 9,
+          "team": "JSG Weser II",
+          "games": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 4,
+          "goals": "217:239",
+          "goalDifference": "-22",
+          "points": "4:8",
+          "own": false
+        },
+        {
+          "rank": 10,
+          "team": "ATSV Habenhausen III",
+          "games": 6,
+          "wins": 0,
+          "draws": 0,
+          "losses": 6,
+          "goals": "188:278",
+          "goalDifference": "-90",
+          "points": "0:12",
+          "own": false
+        },
+        {
+          "rank": 11,
+          "team": "HSG PHOENIX",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": 12,
+          "team": "SV Eintracht Wiefelstede",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": 13,
+          "team": "MSG Augustfehn-Westerstede",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "number": "14009",
+      "start": "2026-09-05T17:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Achim, Gymnasium",
+      "home": "SG Achim/Baden",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "30:23",
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14019",
+      "start": "2026-09-19T11:05:00+02:00",
+      "timeKnown": true,
+      "venue": "Bremen-Woltmershausen, MZH Roter Sand",
+      "home": "TS Woltmershausen",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "45:47",
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14024",
+      "start": "2026-09-26T12:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Bremen-Habenhausen, Hinni-Schwenker-Halle",
+      "home": "ATSV Habenhausen III",
+      "away": "TSG Hatten-Sandkrug",
+      "score": "39:49",
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14047",
+      "start": "2026-11-08T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "JSG Weser II",
+      "score": "41:32",
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    },
+    {
+      "number": "14052",
+      "start": "2026-11-21T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Hoykenkamp, SH Heide I",
+      "home": "TS Hoykenkamp",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14058",
+      "start": "2026-11-28T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "HG Jever/Schortens",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    },
+    {
+      "number": "14062",
+      "start": "2026-12-05T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Hagen, SH Schulzentrum",
+      "home": "Hagener SV",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14072",
+      "start": "2026-12-13T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Elsfleth, Stadthalle",
+      "home": "Elsflether TB",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14031",
+      "start": "2026-12-15T20:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremen-Arsten, Vereinsporthalle TuS Komet Arsten",
+      "home": "TuS Komet Arsten",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14075",
+      "start": "2026-12-20T10:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "SG Achim/Baden",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    },
+    {
+      "number": "14087",
+      "start": "2027-01-24T12:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TS Woltmershausen",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    },
+    {
+      "number": "14004",
+      "start": "2027-01-30T17:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Elsflether TB",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    },
+    {
+      "number": "14093",
+      "start": "2027-02-06T18:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "ATSV Habenhausen III",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    },
+    {
+      "number": "14098",
+      "start": "2027-02-13T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TuS Komet Arsten",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    },
+    {
+      "number": "14114",
+      "start": "2027-03-07T17:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Bremerhaven-Leherheide, Hans-Gabrich-Halle",
+      "home": "JSG Weser II",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14115",
+      "start": "2027-03-13T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "TS Hoykenkamp",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    },
+    {
+      "number": "14122",
+      "start": "2027-04-10T16:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Jever, SZ",
+      "home": "HG Jever/Schortens",
+      "away": "TSG Hatten-Sandkrug",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": false
+    },
+    {
+      "number": "14127",
+      "start": "2027-04-17T13:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug",
+      "away": "Hagener SV",
+      "score": null,
+      "league": "Landesliga männliche Jugend A",
+      "isHome": true
+    }
+  ],
+  "updatedAt": "2026-11-18T14:12:27.710Z"
+}

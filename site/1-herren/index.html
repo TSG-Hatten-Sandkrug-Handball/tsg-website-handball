@@ -122,7 +122,25 @@
                 <span class="media media--wide-dark"><img class="media__image" src="../assets/placeholders/placeholder-photo-wide-dark.svg" alt="Platzhalter: Mannschaftsfoto der 1. Herren" width="320" height="180" loading="eager" decoding="async"></span>
             </div>
         </header>
-        <section class="section" aria-labelledby="roster-title">
+        <section class="section" aria-labelledby="schedule-title" data-team-schedule="../data/teams/1-herren.json">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title-sm" id="schedule-title">Spielplan und Tabelle</h2>
+                    <p class="card__meta" data-team-updated></p>
+                </div>
+                <p class="muted" data-team-status>Spielplan und Tabelle werden geladen …</p>
+                <div class="split split--wide-start" data-team-content hidden>
+                    <div>
+                        <h3 class="label-heading">Kommende Spiele</h3>
+                        <ol class="fixture-list" role="list" data-team-fixtures></ol>
+                        <p class="card card--dashed" data-team-fixtures-empty hidden>Die nächsten Spiele stehen noch nicht fest.</p>
+                        <p class="last-result" data-team-last-result hidden></p>
+                    </div>
+                    <div class="stack stack--lg" data-team-tables></div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--surface" aria-labelledby="roster-title">
             <div class="container">
                 <h2 class="section-title-sm" id="roster-title">Kader 2026/27</h2>
                 <ul class="roster" role="list">
@@ -234,7 +252,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section section--surface" aria-labelledby="staff-title">
+        <section class="section" aria-labelledby="staff-title">
             <div class="container">
                 <h2 class="section-title-sm" id="staff-title">Trainer und Staff</h2>
                 <ul class="grid grid--5" role="list">
