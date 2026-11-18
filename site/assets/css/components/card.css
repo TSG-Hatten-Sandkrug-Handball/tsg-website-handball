@@ -74,6 +74,10 @@
   color: var(--color-brand-lighter);
 }
 
+.card__address {
+  font-style: normal;
+}
+
 .card--dashed {
   padding: var(--space-8) var(--space-6);
   border-style: dashed;

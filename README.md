@@ -56,10 +56,11 @@ for the old value.
 | Menu, header or footer | every `index.html` and `404.html` (identical block in each file) |
 | Person: name or e-mail | `kontakt/`, `uebungsleiter/`, the team pages, `abteilung/` (organisation chart), `schiedsrichter/`, `mitmachen/`, `foerderkreis/`, `1-herren/` |
 | Training times or coaches | `mannschaften/index.html`, `mannschaften/gruppe/*/`, the team page, `uebungsleiter/` |
-| Next home match of the 1. Herren | automatic (see *Schedules and standings*); `heimspiele/` by hand |
+| Next home match of the 1. Herren | automatic (see *Schedules and standings*) |
+| Ticket prices, directions | `index.html` (section `#tickets`) |
 | New article | new folder `neuigkeiten/<slug>/` (copy an existing article), plus `neuigkeiten/index.html`, `index.html` (news block) and `sitemap.xml` |
 | Event | `termine/index.html` (pattern below) |
-| Downloads | `kontakt/` (Formulare), `kids-cup/`, `heimspiele/` (Hallenheft) |
+| Downloads | `kontakt/` (Formulare, Hallenheft), `kids-cup/` |
 | Sponsor | `sponsoren/index.html` (category section), plus the logo grid in `index.html` if there is a logo in `assets/img/partners/` |
 
 Matches and events carry their date in `data-start`. Once it has passed, `upcoming.js`

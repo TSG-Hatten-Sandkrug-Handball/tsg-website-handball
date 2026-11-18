@@ -15,7 +15,8 @@ Replace `https://handball.tsg-hatten-sandkrug.de` with the final subdomain.
 | `/handball/veranstaltungen/` | `/termine/` |
 | `/handball/foerderkreis/` | `/foerderkreis/` |
 | `/handball/service/` | `/kontakt/#formulare` |
-| `/handball/tickets/`, `/handball/hallenheft/` | `/heimspiele/` |
+| `/handball/tickets/` | `/#tickets` |
+| `/handball/hallenheft/` | `/kontakt/#formulare` |
 | `/handball/abteilungsinfos/` | `/abteilung/` |
 | `/handball/turnier/` | `/kids-cup/` |
 | `/handball/trainer/` | `/uebungsleiter/` |
@@ -38,7 +39,8 @@ are not redirected, the new site links to them directly (R-06).
 RewriteEngine On
 RewriteRule ^handball/?$ https://handball.tsg-hatten-sandkrug.de/ [R=301,L,QSD]
 RewriteRule ^handball/veranstaltungen/?$ https://handball.tsg-hatten-sandkrug.de/termine/ [R=301,L,QSD]
-RewriteRule ^handball/(tickets|hallenheft)/?$ https://handball.tsg-hatten-sandkrug.de/heimspiele/ [R=301,L,QSD]
+RewriteRule ^handball/tickets/?$ https://handball.tsg-hatten-sandkrug.de/#tickets [R=301,NE,L,QSD]
+RewriteRule ^handball/hallenheft/?$ https://handball.tsg-hatten-sandkrug.de/kontakt/#formulare [R=301,NE,L,QSD]
 RewriteRule ^handball/abteilungsinfos/?$ https://handball.tsg-hatten-sandkrug.de/abteilung/ [R=301,L,QSD]
 RewriteRule ^handball/turnier/?$ https://handball.tsg-hatten-sandkrug.de/kids-cup/ [R=301,L,QSD]
 RewriteRule ^handball/trainer/?$ https://handball.tsg-hatten-sandkrug.de/uebungsleiter/ [R=301,L,QSD]
