@@ -132,6 +132,12 @@
   margin-top: var(--space-4);
 }
 
+/* Home page: the latest two stories share the row. */
+.news-grid--home {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  margin-top: 0;
+}
+
 .news-card {
   position: relative;
   display: grid;
