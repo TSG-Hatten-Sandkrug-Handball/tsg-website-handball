@@ -2,8 +2,8 @@
    brand blue by default, black for the men, pink for women and girls. */
 .team-card {
   position: relative;
-  display: grid;
-  grid-template-rows: auto auto auto 1fr auto auto;
+  display: flex;
+  flex-direction: column;
   gap: var(--space-2);
   height: 100%;
   padding: var(--space-5);
@@ -26,7 +26,8 @@
 
 .team-card__training {
   align-self: start;
-  margin-top: var(--space-2);
+  /* Pushes coaches and link to the bottom, whatever the card holds above. */
+  margin-block: var(--space-2) auto;
   border-top: var(--border);
   font-size: var(--text-sm);
 }
