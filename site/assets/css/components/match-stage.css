@@ -50,6 +50,16 @@
   height: auto;
 }
 
+/* Club logos come in all shapes; show them whole on a white tile. */
+.match-stage__crest--logo {
+  background: var(--color-white);
+}
+
+.match-stage__crest--logo .media__image {
+  padding: 0.1875rem;
+  object-fit: contain;
+}
+
 .match-stage__versus {
   display: inline-grid;
   place-items: center;

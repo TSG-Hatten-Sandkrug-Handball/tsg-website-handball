@@ -17,6 +17,7 @@ site/                       the website – upload this folder
 ├── neuigkeiten/<slug>/     one folder per article; thema/<topic>/ holds the filtered lists
 ├── mannschaften/<team>/    one folder per team; gruppe/<group>/ holds the filtered lists
 ├── data/teams/<team>.json  schedules and standings, written by the import – do not edit
+│                           (opponents' crests land in assets/img/crests/)
 ├── 404.html, robots.txt, sitemap.xml, llms.txt
 ├── .htaccess               Strato settings (HTTPS, 404, caching); ignored by GitHub Pages
 └── assets/
@@ -108,6 +109,11 @@ edited by hand.
   team's nuLiga link (`group=…`). A team with a preliminary and a main round lists both,
   current round first. `nuligaName` is the team's exact name in nuLiga, e.g.
   `TSG Hatten-Sandkrug II`.
+- **Crests:** teams with `"crests": true` (currently the 1. Herren) also get their opponents'
+  logos from nuLiga (`scripts/crests.mjs`). Each logo is downloaded once into
+  `site/assets/img/crests/<club id>.png`, scaled to 160 px with ffmpeg or ImageMagick if
+  available. To replace a bad logo, overwrite that file; to fetch it again, delete it.
+  Crests no team plays against any more are deleted at the end of each run.
 - **New team:** add it to `scripts/teams.json` and copy the `data-team-schedule` section from
   another team page, with the matching JSON path.
 - **Other data source:** `scripts/sources/nuliga.mjs` is the only file that knows nuLiga.

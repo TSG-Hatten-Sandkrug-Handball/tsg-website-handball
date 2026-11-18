@@ -1,6 +1,6 @@
 {
   "teams": [
-    { "slug": "1-herren", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HVNB 26/27", "group": "489136" }] },
+    { "slug": "1-herren", "nuligaName": "TSG Hatten-Sandkrug", "crests": true, "leagues": [{ "championship": "HVNB 26/27", "group": "489136" }] },
     { "slug": "2-herren", "nuligaName": "TSG Hatten-Sandkrug II", "leagues": [{ "championship": "HRBN 26/27", "group": "489108" }] },
     { "slug": "damen", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "489407" }] },
     { "slug": "maennliche-a-jugend", "nuligaName": "TSG Hatten-Sandkrug", "leagues": [{ "championship": "HRBN 26/27", "group": "489106" }] },

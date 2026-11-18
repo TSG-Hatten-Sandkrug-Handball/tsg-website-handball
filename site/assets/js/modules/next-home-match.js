@@ -13,7 +13,7 @@ export function initNextHomeMatch() {
       const match = upcomingFixtures(data).find((fixture) => fixture.isHome);
 
       if (match) {
-        renderMatch(stage, match);
+        renderMatch(stage, match, crestUrl(stage, data, match.away));
       }
     } catch {
       // The fallback note is already visible.
@@ -21,7 +21,15 @@ export function initNextHomeMatch() {
   });
 }
 
-function renderMatch(stage, match) {
+// Crest paths in the data are relative to the site root, which is two levels
+// above data/teams/.
+function crestUrl(stage, data, team) {
+  const path = data.crests?.[team];
+
+  return path ? new URL(`../../${path}`, new URL(stage.dataset.nextHomeMatch, document.baseURI)).href : null;
+}
+
+function renderMatch(stage, match, crest) {
   const kickOff = match.timeKnown
     ? `${formatLongDate(match.start)} · ${formatTime(match.start)}`
     : formatLongDate(match.start);
@@ -34,6 +42,12 @@ function renderMatch(stage, match) {
   stage.querySelector('[data-match-time]').dateTime = match.start;
   stage.querySelector('[data-match-venue]').textContent = match.venue ? ` · ${match.venue}` : '';
   stage.querySelector('[data-match-kickoff-text]').textContent = `Anwurf am ${kickOff}.`;
+
+  if (crest) {
+    const image = stage.querySelector('[data-match-guest-crest]');
+    image.src = crest;
+    image.closest('.match-stage__crest').classList.add('match-stage__crest--logo');
+  }
 
   countdown.dataset.target = match.start;
   startCountdown(countdown);

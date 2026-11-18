@@ -465,5 +465,20 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-18T14:12:27.506Z"
+  "crests": {
+    "HC Bremen": "assets/img/crests/48496.png",
+    "HSG Delmenhorst": "assets/img/crests/32422.png",
+    "HSG Grüppenbühren/Bookholzberg": "assets/img/crests/132998.png",
+    "SG Achim/Baden": "assets/img/crests/32317.png",
+    "SG Bremen-Ost": "assets/img/crests/48504.png",
+    "TSV Bremervörde": "assets/img/crests/32444.png",
+    "TV Dinklage": "assets/img/crests/32555.png",
+    "TV Neerstedt": "assets/img/crests/32417.png",
+    "TV Oyten": "assets/img/crests/32305.png",
+    "TV Schiffdorf": "assets/img/crests/32099.png",
+    "TuS Rotenburg": "assets/img/crests/32308.png",
+    "VfL Fredenbeck II": "assets/img/crests/32448.png",
+    "Wilhelmshavener HV II": "assets/img/crests/32625.png"
+  },
+  "updatedAt": "2026-11-18T15:06:58.177Z"
 }

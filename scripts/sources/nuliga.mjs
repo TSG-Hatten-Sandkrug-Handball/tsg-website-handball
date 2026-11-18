@@ -6,12 +6,66 @@
 //   { name, url, table: [Standing], fixtures: [Fixture] }
 //   Standing: { rank, team, games, wins, draws, losses, goals, goalDifference, points }
 //   Fixture:  { number, start, timeKnown, venue, home, away, score }
-// To switch to another source, add a file with the same export and point
+// Optionally it exports fetchCrest(league, team), resolving to
+//   { id, data: Uint8Array, extension } or null when the club has no logo.
+// To switch to another source, add a file with the same exports and point
 // scripts/import-hvnb.mjs at it. Nothing else depends on nuLiga.
 
-const BASE_URL = 'https://hvnb-handball.liga.nu/cgi-bin/WebObjects/nuLigaHBDE.woa/wa';
+const ORIGIN = 'https://hvnb-handball.liga.nu';
+const BASE_URL = `${ORIGIN}/cgi-bin/WebObjects/nuLigaHBDE.woa/wa`;
 const ATTEMPTS = 3;
 const TIMEOUT_MS = 15_000;
+const IMAGE_EXTENSIONS = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/gif': 'gif', 'image/webp': 'webp' };
+// One run looks up several crests per league; the standings page is read once.
+const standingsPages = new Map();
+
+// Team row in the standings → team portrait → club page, which shows the logo.
+// The logo address is only valid for the session of that club page request,
+// so the image is fetched right away with the page's cookies.
+export async function fetchCrest({ championship, group }, team) {
+  const query = `championship=${encodeURIComponent(championship)}&group=${encodeURIComponent(group)}`;
+  if (!standingsPages.has(query)) {
+    standingsPages.set(query, fetchHtml(`${BASE_URL}/groupPage?${query}`));
+  }
+
+  const standingsHtml = await standingsPages.get(query);
+  const portraitLink = [...standingsHtml.matchAll(/<a[^>]*href="([^"]*teamPortrait[^"]*)"[^>]*>([\s\S]*?)<\/a>/g)]
+    .find((match) => cellText(match[2]) === team)?.[1];
+
+  if (!portraitLink) {
+    return null;
+  }
+
+  const portraitHtml = await fetchHtml(ORIGIN + decodeEntities(portraitLink));
+  const clubId = portraitHtml.match(/clubInfoDisplay\?club=(\d+)/)?.[1];
+
+  if (!clubId) {
+    return null;
+  }
+
+  for (let attempt = 1; attempt <= ATTEMPTS; attempt += 1) {
+    const page = await fetch(`${BASE_URL}/clubInfoDisplay?club=${clubId}`, { signal: AbortSignal.timeout(TIMEOUT_MS) });
+    const logoPath = (await page.text()).match(/<img[^>]*src="(\/cgi-bin\/WebObjects\/nuLigaHBDE\.woa\/wr\?wodata=[^"]+)"/)?.[1];
+
+    if (!logoPath) {
+      return null;
+    }
+
+    const cookie = page.headers.getSetCookie().map((header) => header.split(';')[0]).join('; ');
+    const image = await fetch(ORIGIN + decodeEntities(logoPath), {
+      headers: cookie ? { cookie } : {},
+      signal: AbortSignal.timeout(TIMEOUT_MS),
+    });
+    const extension = IMAGE_EXTENSIONS[image.headers.get('content-type')];
+    const data = new Uint8Array(await image.arrayBuffer());
+
+    if (image.ok && extension && data.length > 0) {
+      return { id: clubId, data, extension };
+    }
+  }
+
+  throw new Error(`logo of club ${clubId} could not be downloaded`);
+}
 
 export async function fetchLeague({ championship, group }) {
   const query = `championship=${encodeURIComponent(championship)}&group=${encodeURIComponent(group)}`;
