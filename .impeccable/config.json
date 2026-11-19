@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "site/partner-werden/index.html"
+        ],
+        "createdAt": "2026-11-19T14:06:48.630Z",
+        "reason": "Claude triage: page uses the site-wide type tokens (h1 up to 3.5rem vs lead 1.19rem, h2 2.75rem, card titles 1.25rem vs meta 0.875rem); hierarchy verified visually in browser"
+      }
+    ]
+  }
+}
