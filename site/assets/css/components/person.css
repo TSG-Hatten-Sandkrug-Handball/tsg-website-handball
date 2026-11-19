@@ -65,6 +65,19 @@
   color: var(--color-brand-lighter);
 }
 
+.person-card--brand.person-card--row .person-card__photo {
+  margin: calc(-1 * var(--space-6)) 0 calc(-1 * var(--space-6)) calc(-1 * var(--space-6));
+}
+
+/* Brand cards put the function above the name. */
+.person-card--brand.person-card--row .card__meta {
+  align-self: end;
+}
+
+.person-card--brand.person-card--row .person-card__name {
+  align-self: start;
+}
+
 /* Single contact person with photo flush left and a call to action. */
 .contact-card {
   gap: 0;
