@@ -68,6 +68,18 @@
         },
         {
           "rank": 6,
+          "team": "TS Woltmershausen II",
+          "games": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 4,
+          "goals": "131:154",
+          "goalDifference": "-23",
+          "points": "4:8",
+          "own": false
+        },
+        {
+          "rank": 7,
           "team": "Harpstedter TB",
           "games": 4,
           "wins": 1,
@@ -79,7 +91,7 @@
           "own": false
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "TvdH Oldenburg II",
           "games": 5,
           "wins": 1,
@@ -91,27 +103,15 @@
           "own": false
         },
         {
-          "rank": 8,
-          "team": "TS Woltmershausen II",
-          "games": 5,
-          "wins": 1,
-          "draws": 0,
-          "losses": 4,
-          "goals": "108:136",
-          "goalDifference": "-28",
-          "points": "2:8",
-          "own": false
-        },
-        {
           "rank": 9,
           "team": "TSG Hatten-Sandkrug",
-          "games": 4,
+          "games": 5,
           "wins": 0,
           "draws": 1,
-          "losses": 3,
-          "goals": "93:106",
-          "goalDifference": "-13",
-          "points": "1:7",
+          "losses": 4,
+          "goals": "111:129",
+          "goalDifference": "-18",
+          "points": "1:9",
           "own": true
         },
         {
@@ -181,7 +181,7 @@
       "venue": "Bremen-Woltmershausen, MZH Roter Sand",
       "home": "TS Woltmershausen II",
       "away": "TSG Hatten-Sandkrug",
-      "score": null,
+      "score": "23:18",
       "league": "Regionsliga Frauen West",
       "isHome": false
     },
@@ -307,5 +307,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-18T14:12:27.642Z"
+  "updatedAt": "2026-11-19T12:29:04.868Z"
 }
