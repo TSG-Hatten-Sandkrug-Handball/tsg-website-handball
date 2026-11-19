@@ -28,3 +28,19 @@
   font-size: var(--text-sm);
   color: var(--color-muted);
 }
+
+/* Roster with player photos: two columns on phones, photo above number and name. */
+.roster--photos {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 9rem), 1fr));
+  gap: var(--space-6) var(--space-4);
+}
+
+.roster--photos .roster__player {
+  align-content: start;
+  padding-block: 0 var(--space-3);
+}
+
+.roster__photo {
+  grid-column: 1 / -1;
+  margin-bottom: var(--space-3);
+}
