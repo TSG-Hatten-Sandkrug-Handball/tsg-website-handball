@@ -32,6 +32,18 @@
         },
         {
           "rank": 3,
+          "team": "TSV Ganderkesee",
+          "games": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals": "89:68",
+          "goalDifference": "+21",
+          "points": "4:2",
+          "own": false
+        },
+        {
+          "rank": 4,
           "team": "SV Eintracht Wiefelstede",
           "games": 1,
           "wins": 1,
@@ -40,18 +52,6 @@
           "goals": "35:20",
           "goalDifference": "+15",
           "points": "2:0",
-          "own": false
-        },
-        {
-          "rank": 4,
-          "team": "TSV Ganderkesee",
-          "games": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "goals": "58:55",
-          "goalDifference": "+3",
-          "points": "2:2",
           "own": false
         },
         {
@@ -93,13 +93,13 @@
         {
           "rank": 8,
           "team": "TSG Hatten-Sandkrug II",
-          "games": 2,
+          "games": 3,
           "wins": 0,
           "draws": 0,
-          "losses": 2,
-          "goals": "44:77",
-          "goalDifference": "-33",
-          "points": "0:4",
+          "losses": 3,
+          "goals": "57:108",
+          "goalDifference": "-51",
+          "points": "0:6",
           "own": true
         }
       ]
@@ -245,7 +245,7 @@
       "venue": "Sandkrug, SZ neu",
       "home": "TSG Hatten-Sandkrug II",
       "away": "TSV Ganderkesee",
-      "score": null,
+      "score": "13:31",
       "league": "Regionsklasse weiblich Jugend D HR West A",
       "isHome": true
     },
@@ -371,5 +371,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-18T14:12:28.426Z"
+  "updatedAt": "2026-11-20T12:30:04.908Z"
 }

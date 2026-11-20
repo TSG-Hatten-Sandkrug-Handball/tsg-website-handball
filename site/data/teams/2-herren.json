@@ -32,6 +32,18 @@
         },
         {
           "rank": 3,
+          "team": "TvdH Oldenburg II",
+          "games": 6,
+          "wins": 4,
+          "draws": 0,
+          "losses": 2,
+          "goals": "185:132",
+          "goalDifference": "+53",
+          "points": "8:4",
+          "own": false
+        },
+        {
+          "rank": 4,
           "team": "Wilhelmshavener SSV",
           "games": 6,
           "wins": 4,
@@ -40,18 +52,6 @@
           "goals": "186:172",
           "goalDifference": "+14",
           "points": "8:4",
-          "own": false
-        },
-        {
-          "rank": 4,
-          "team": "TvdH Oldenburg II",
-          "games": 5,
-          "wins": 3,
-          "draws": 0,
-          "losses": 2,
-          "goals": "149:112",
-          "goalDifference": "+37",
-          "points": "6:4",
           "own": false
         },
         {
@@ -93,13 +93,13 @@
         {
           "rank": 8,
           "team": "VfL Oldenburg",
-          "games": 5,
+          "games": 6,
           "wins": 2,
           "draws": 0,
-          "losses": 3,
-          "goals": "132:137",
-          "goalDifference": "-5",
-          "points": "4:6",
+          "losses": 4,
+          "goals": "152:173",
+          "goalDifference": "-21",
+          "points": "4:8",
           "own": false
         },
         {
@@ -341,5 +341,5 @@
       "isHome": false
     }
   ],
-  "updatedAt": "2026-11-18T14:12:27.576Z"
+  "updatedAt": "2026-11-20T12:29:49.746Z"
 }
