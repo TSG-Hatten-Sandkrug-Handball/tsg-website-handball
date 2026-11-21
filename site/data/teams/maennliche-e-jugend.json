@@ -56,6 +56,18 @@
         },
         {
           "rank": null,
+          "team": "Oldenburger TB",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
           "team": "HSG Delmenhorst",
           "games": null,
           "wins": null,
@@ -81,18 +93,6 @@
         {
           "rank": null,
           "team": "SG Findorff II",
-          "games": null,
-          "wins": null,
-          "draws": null,
-          "losses": null,
-          "goals": null,
-          "goalDifference": null,
-          "points": null,
-          "own": false
-        },
-        {
-          "rank": null,
-          "team": "Oldenburger TB",
           "games": null,
           "wins": null,
           "draws": null,
@@ -371,5 +371,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-18T14:12:28.065Z"
+  "updatedAt": "2026-11-21T12:06:39.823Z"
 }

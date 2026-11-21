@@ -32,7 +32,7 @@
         },
         {
           "rank": null,
-          "team": "SG SV F-fehn./TuS P-fehn II",
+          "team": "TSG Hatten-Sandkrug",
           "games": null,
           "wins": null,
           "draws": null,
@@ -40,11 +40,11 @@
           "goals": null,
           "goalDifference": null,
           "points": null,
-          "own": false
+          "own": true
         },
         {
           "rank": null,
-          "team": "VfL Rastede",
+          "team": "SG SV F-fehn./TuS P-fehn II",
           "games": null,
           "wins": null,
           "draws": null,
@@ -68,7 +68,7 @@
         },
         {
           "rank": null,
-          "team": "TSG Hatten-Sandkrug",
+          "team": "VfL Rastede",
           "games": null,
           "wins": null,
           "draws": null,
@@ -76,7 +76,7 @@
           "goals": null,
           "goalDifference": null,
           "points": null,
-          "own": true
+          "own": false
         },
         {
           "rank": null,
@@ -124,7 +124,7 @@
       "venue": "Wilhelmshaven Sporthalle Nogatstraße (OT Fedderwardergroden)",
       "home": "JSG Wilhelmshaven II",
       "away": "TSG Hatten-Sandkrug",
-      "score": null,
+      "score": "0:2",
       "league": "Regionsklasse weibliche Jugend E HR West",
       "isHome": false
     },
@@ -239,5 +239,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-18T14:12:28.503Z"
+  "updatedAt": "2026-11-21T12:06:48.422Z"
 }
