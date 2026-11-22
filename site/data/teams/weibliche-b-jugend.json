@@ -9,13 +9,13 @@
         {
           "rank": 1,
           "team": "TS Woltmershausen",
-          "games": 7,
-          "wins": 7,
+          "games": 8,
+          "wins": 8,
           "draws": 0,
           "losses": 0,
-          "goals": "149:102",
-          "goalDifference": "+47",
-          "points": "14:0",
+          "goals": "182:126",
+          "goalDifference": "+56",
+          "points": "16:0",
           "own": false
         },
         {
@@ -57,13 +57,13 @@
         {
           "rank": 5,
           "team": "HSG Varel II",
-          "games": 6,
+          "games": 7,
           "wins": 3,
           "draws": 1,
-          "losses": 2,
-          "goals": "165:142",
-          "goalDifference": "+23",
-          "points": "7:5",
+          "losses": 3,
+          "goals": "189:175",
+          "goalDifference": "+14",
+          "points": "7:7",
           "own": false
         },
         {
@@ -364,5 +364,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-18T14:12:28.134Z"
+  "updatedAt": "2026-11-22T00:46:10.085Z"
 }

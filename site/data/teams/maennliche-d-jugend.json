@@ -20,6 +20,18 @@
         },
         {
           "rank": 2,
+          "team": "TSV Ganderkesee",
+          "games": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals": "33:25",
+          "goalDifference": "+8",
+          "points": "2:0",
+          "own": false
+        },
+        {
+          "rank": 3,
           "team": "TSG Hatten-Sandkrug",
           "games": 1,
           "wins": 1,
@@ -31,7 +43,7 @@
           "own": true
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "VfL Rastede",
           "games": 2,
           "wins": 1,
@@ -43,7 +55,7 @@
           "own": false
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "HSG Varel II",
           "games": 2,
           "wins": 1,
@@ -55,27 +67,15 @@
           "own": false
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "Harpstedter TB",
-          "games": 2,
+          "games": 3,
           "wins": 1,
           "draws": 0,
-          "losses": 1,
-          "goals": "56:60",
-          "goalDifference": "-4",
-          "points": "2:2",
-          "own": false
-        },
-        {
-          "rank": 6,
-          "team": "TSV Ganderkesee",
-          "games": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goals": "0:0",
-          "goalDifference": "0",
-          "points": "0:0",
+          "losses": 2,
+          "goals": "81:93",
+          "goalDifference": "-12",
+          "points": "2:4",
           "own": false
         },
         {
@@ -394,5 +394,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-18T14:12:27.959Z"
+  "updatedAt": "2026-11-22T00:46:06.330Z"
 }

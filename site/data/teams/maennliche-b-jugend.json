@@ -9,25 +9,25 @@
         {
           "rank": 1,
           "team": "HSG Nordhorn e.V.",
-          "games": 6,
-          "wins": 6,
+          "games": 7,
+          "wins": 7,
           "draws": 0,
           "losses": 0,
-          "goals": "199:159",
-          "goalDifference": "+40",
-          "points": "12:0",
+          "goals": "233:190",
+          "goalDifference": "+43",
+          "points": "14:0",
           "own": false
         },
         {
           "rank": 2,
           "team": "SG Neuenhaus/Uelsen",
-          "games": 6,
+          "games": 7,
           "wins": 5,
           "draws": 0,
-          "losses": 1,
-          "goals": "180:152",
-          "goalDifference": "+28",
-          "points": "10:2",
+          "losses": 2,
+          "goals": "206:182",
+          "goalDifference": "+24",
+          "points": "10:4",
           "own": false
         },
         {
@@ -56,6 +56,18 @@
         },
         {
           "rank": 5,
+          "team": "TV Cloppenburg",
+          "games": 6,
+          "wins": 3,
+          "draws": 0,
+          "losses": 3,
+          "goals": "173:170",
+          "goalDifference": "+3",
+          "points": "6:6",
+          "own": false
+        },
+        {
+          "rank": 6,
           "team": "TSG Hatten-Sandkrug",
           "games": 5,
           "wins": 2,
@@ -65,18 +77,6 @@
           "goalDifference": "+4",
           "points": "5:5",
           "own": true
-        },
-        {
-          "rank": 6,
-          "team": "TV Cloppenburg",
-          "games": 5,
-          "wins": 2,
-          "draws": 0,
-          "losses": 3,
-          "goals": "143:144",
-          "goalDifference": "-1",
-          "points": "4:6",
-          "own": false
         },
         {
           "rank": 7,
@@ -105,13 +105,13 @@
         {
           "rank": 9,
           "team": "TvdH Oldenburg II",
-          "games": 4,
+          "games": 5,
           "wins": 1,
           "draws": 0,
-          "losses": 3,
-          "goals": "114:120",
-          "goalDifference": "-6",
-          "points": "2:6",
+          "losses": 4,
+          "goals": "145:154",
+          "goalDifference": "-9",
+          "points": "2:8",
           "own": false
         },
         {
@@ -329,5 +329,5 @@
       "isHome": false
     }
   ],
-  "updatedAt": "2026-11-18T14:12:27.778Z"
+  "updatedAt": "2026-11-22T00:46:03.905Z"
 }

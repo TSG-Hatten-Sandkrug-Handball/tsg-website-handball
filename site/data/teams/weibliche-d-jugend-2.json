@@ -8,6 +8,18 @@
       "table": [
         {
           "rank": 1,
+          "team": "SV Eintracht Wiefelstede",
+          "games": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goals": "82:38",
+          "goalDifference": "+44",
+          "points": "4:0",
+          "own": false
+        },
+        {
+          "rank": 2,
           "team": "HG Jever/Schortens II",
           "games": 2,
           "wins": 2,
@@ -19,7 +31,7 @@
           "own": false
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "HSG Varel",
           "games": 2,
           "wins": 2,
@@ -31,7 +43,7 @@
           "own": false
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "TSV Ganderkesee",
           "games": 3,
           "wins": 2,
@@ -40,18 +52,6 @@
           "goals": "89:68",
           "goalDifference": "+21",
           "points": "4:2",
-          "own": false
-        },
-        {
-          "rank": 4,
-          "team": "SV Eintracht Wiefelstede",
-          "games": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goals": "35:20",
-          "goalDifference": "+15",
-          "points": "2:0",
           "own": false
         },
         {
@@ -80,18 +80,6 @@
         },
         {
           "rank": 7,
-          "team": "HSG Altes Amt Friesoythe II",
-          "games": 2,
-          "wins": 0,
-          "draws": 0,
-          "losses": 2,
-          "goals": "32:57",
-          "goalDifference": "-25",
-          "points": "0:4",
-          "own": false
-        },
-        {
-          "rank": 8,
           "team": "TSG Hatten-Sandkrug II",
           "games": 3,
           "wins": 0,
@@ -101,6 +89,18 @@
           "goalDifference": "-51",
           "points": "0:6",
           "own": true
+        },
+        {
+          "rank": 8,
+          "team": "HSG Altes Amt Friesoythe II",
+          "games": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goals": "50:104",
+          "goalDifference": "-54",
+          "points": "0:6",
+          "own": false
         }
       ]
     },
@@ -371,5 +371,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-20T12:30:04.908Z"
+  "updatedAt": "2026-11-22T00:46:13.764Z"
 }

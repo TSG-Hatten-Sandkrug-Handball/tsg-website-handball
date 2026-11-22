@@ -20,18 +20,30 @@
         },
         {
           "rank": 2,
-          "team": "TvdH Oldenburg",
-          "games": 1,
-          "wins": 1,
+          "team": "HSG Altes Amt Friesoythe",
+          "games": 3,
+          "wins": 2,
           "draws": 0,
-          "losses": 0,
-          "goals": "35:24",
-          "goalDifference": "+11",
-          "points": "2:0",
+          "losses": 1,
+          "goals": "116:93",
+          "goalDifference": "+23",
+          "points": "4:2",
           "own": false
         },
         {
           "rank": 3,
+          "team": "TuS Augustfehn",
+          "games": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals": "76:62",
+          "goalDifference": "+14",
+          "points": "4:2",
+          "own": false
+        },
+        {
+          "rank": 4,
           "team": "TV Neerstedt",
           "games": 1,
           "wins": 1,
@@ -43,26 +55,14 @@
           "own": false
         },
         {
-          "rank": 4,
-          "team": "TuS Augustfehn",
-          "games": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "goals": "55:43",
-          "goalDifference": "+12",
-          "points": "2:2",
-          "own": false
-        },
-        {
           "rank": 5,
-          "team": "HSG Altes Amt Friesoythe",
+          "team": "TvdH Oldenburg",
           "games": 2,
           "wins": 1,
           "draws": 0,
           "losses": 1,
-          "goals": "68:65",
-          "goalDifference": "+3",
+          "goals": "54:45",
+          "goalDifference": "+9",
           "points": "2:2",
           "own": false
         },
@@ -81,13 +81,13 @@
         {
           "rank": 7,
           "team": "VfL Edewecht",
-          "games": 1,
+          "games": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "goals": "24:35",
-          "goalDifference": "-11",
-          "points": "0:2",
+          "losses": 2,
+          "goals": "52:83",
+          "goalDifference": "-31",
+          "points": "0:4",
           "own": false
         },
         {
@@ -394,5 +394,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-18T14:12:28.315Z"
+  "updatedAt": "2026-11-22T00:46:12.380Z"
 }

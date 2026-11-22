@@ -20,6 +20,18 @@
         },
         {
           "rank": 2,
+          "team": "TvdH Oldenburg II",
+          "games": 7,
+          "wins": 5,
+          "draws": 0,
+          "losses": 2,
+          "goals": "217:161",
+          "goalDifference": "+56",
+          "points": "10:4",
+          "own": false
+        },
+        {
+          "rank": 3,
           "team": "HSG Varel III",
           "games": 7,
           "wins": 5,
@@ -28,18 +40,6 @@
           "goals": "162:139",
           "goalDifference": "+23",
           "points": "10:4",
-          "own": false
-        },
-        {
-          "rank": 3,
-          "team": "TvdH Oldenburg II",
-          "games": 6,
-          "wins": 4,
-          "draws": 0,
-          "losses": 2,
-          "goals": "185:132",
-          "goalDifference": "+53",
-          "points": "8:4",
           "own": false
         },
         {
@@ -81,13 +81,13 @@
         {
           "rank": 7,
           "team": "SG SV F-fehn./TuS P-fehn II",
-          "games": 7,
+          "games": 8,
           "wins": 3,
           "draws": 0,
-          "losses": 4,
-          "goals": "194:190",
-          "goalDifference": "+4",
-          "points": "6:8",
+          "losses": 5,
+          "goals": "223:222",
+          "goalDifference": "+1",
+          "points": "6:10",
           "own": false
         },
         {
@@ -341,5 +341,5 @@
       "isHome": false
     }
   ],
-  "updatedAt": "2026-11-20T12:29:49.746Z"
+  "updatedAt": "2026-11-22T00:46:00.052Z"
 }

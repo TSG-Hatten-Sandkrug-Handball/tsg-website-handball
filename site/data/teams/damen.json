@@ -32,6 +32,18 @@
         },
         {
           "rank": 3,
+          "team": "SG Buntentor/Neustadt",
+          "games": 6,
+          "wins": 4,
+          "draws": 0,
+          "losses": 2,
+          "goals": "161:135",
+          "goalDifference": "+26",
+          "points": "8:4",
+          "own": false
+        },
+        {
+          "rank": 4,
           "team": "Oldenburger TB",
           "games": 5,
           "wins": 3,
@@ -40,18 +52,6 @@
           "goals": "127:121",
           "goalDifference": "+6",
           "points": "7:3",
-          "own": false
-        },
-        {
-          "rank": 4,
-          "team": "SG Buntentor/Neustadt",
-          "games": 5,
-          "wins": 3,
-          "draws": 0,
-          "losses": 2,
-          "goals": "130:116",
-          "goalDifference": "+14",
-          "points": "6:4",
           "own": false
         },
         {
@@ -80,18 +80,6 @@
         },
         {
           "rank": 7,
-          "team": "Harpstedter TB",
-          "games": 4,
-          "wins": 1,
-          "draws": 0,
-          "losses": 3,
-          "goals": "81:106",
-          "goalDifference": "-25",
-          "points": "2:6",
-          "own": false
-        },
-        {
-          "rank": 8,
           "team": "TvdH Oldenburg II",
           "games": 5,
           "wins": 1,
@@ -99,6 +87,18 @@
           "losses": 4,
           "goals": "100:122",
           "goalDifference": "-22",
+          "points": "2:8",
+          "own": false
+        },
+        {
+          "rank": 8,
+          "team": "Harpstedter TB",
+          "games": 5,
+          "wins": 1,
+          "draws": 0,
+          "losses": 4,
+          "goals": "100:137",
+          "goalDifference": "-37",
           "points": "2:8",
           "own": false
         },
@@ -307,5 +307,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-19T12:29:04.868Z"
+  "updatedAt": "2026-11-22T00:46:01.241Z"
 }
