@@ -20,6 +20,18 @@
         },
         {
           "rank": null,
+          "team": "SG SV F-fehn./TuS P-fehn II",
+          "games": null,
+          "wins": null,
+          "draws": null,
+          "losses": null,
+          "goals": null,
+          "goalDifference": null,
+          "points": null,
+          "own": false
+        },
+        {
+          "rank": null,
           "team": "VfL Edewecht",
           "games": null,
           "wins": null,
@@ -44,7 +56,7 @@
         },
         {
           "rank": null,
-          "team": "SG SV F-fehn./TuS P-fehn II",
+          "team": "VfL Rastede",
           "games": null,
           "wins": null,
           "draws": null,
@@ -57,18 +69,6 @@
         {
           "rank": null,
           "team": "SG SV F-fehn./TuS P-fehn",
-          "games": null,
-          "wins": null,
-          "draws": null,
-          "losses": null,
-          "goals": null,
-          "goalDifference": null,
-          "points": null,
-          "own": false
-        },
-        {
-          "rank": null,
-          "team": "VfL Rastede",
           "games": null,
           "wins": null,
           "draws": null,
@@ -239,5 +239,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-21T12:06:48.422Z"
+  "updatedAt": "2026-11-22T12:16:46.951Z"
 }

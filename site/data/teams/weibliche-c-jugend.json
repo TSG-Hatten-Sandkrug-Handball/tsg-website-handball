@@ -69,13 +69,13 @@
         {
           "rank": 6,
           "team": "HSG PHOENIX",
-          "games": 6,
-          "wins": 3,
+          "games": 7,
+          "wins": 4,
           "draws": 0,
           "losses": 3,
-          "goals": "164:138",
-          "goalDifference": "+26",
-          "points": "6:6",
+          "goals": "206:153",
+          "goalDifference": "+53",
+          "points": "8:6",
           "own": false
         },
         {
@@ -92,18 +92,6 @@
         },
         {
           "rank": 8,
-          "team": "BTB Oldenburg",
-          "games": 6,
-          "wins": 1,
-          "draws": 0,
-          "losses": 5,
-          "goals": "79:155",
-          "goalDifference": "-76",
-          "points": "2:10",
-          "own": false
-        },
-        {
-          "rank": 9,
           "team": "JSG Hasbruch",
           "games": 7,
           "wins": 1,
@@ -111,6 +99,18 @@
           "losses": 6,
           "goals": "130:181",
           "goalDifference": "-51",
+          "points": "2:12",
+          "own": false
+        },
+        {
+          "rank": 9,
+          "team": "BTB Oldenburg",
+          "games": 7,
+          "wins": 1,
+          "draws": 0,
+          "losses": 6,
+          "goals": "94:197",
+          "goalDifference": "-103",
           "points": "2:12",
           "own": false
         },
@@ -329,5 +329,5 @@
       "isHome": false
     }
   ],
-  "updatedAt": "2026-11-22T00:46:11.118Z"
+  "updatedAt": "2026-11-22T12:16:43.017Z"
 }

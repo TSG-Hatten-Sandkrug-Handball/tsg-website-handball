@@ -245,7 +245,7 @@
       "venue": "Ganderkesee, SH (neu)",
       "home": "TSV Ganderkesee",
       "away": "TSG Hatten-Sandkrug",
-      "score": null,
+      "score": "1:1",
       "league": "Regionsklasse männl./gemischte Jugend E HR Mitte A",
       "isHome": false
     },
@@ -371,5 +371,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-21T12:06:39.823Z"
+  "updatedAt": "2026-11-22T12:16:40.243Z"
 }

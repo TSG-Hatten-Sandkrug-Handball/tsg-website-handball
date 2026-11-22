@@ -9,13 +9,13 @@
         {
           "rank": 1,
           "team": "JSG Wilhelmshaven II",
-          "games": 2,
-          "wins": 2,
+          "games": 3,
+          "wins": 3,
           "draws": 0,
           "losses": 0,
-          "goals": "79:49",
-          "goalDifference": "+30",
-          "points": "4:0",
+          "goals": "111:73",
+          "goalDifference": "+38",
+          "points": "6:0",
           "own": false
         },
         {
@@ -44,18 +44,6 @@
         },
         {
           "rank": 4,
-          "team": "TV Neerstedt",
-          "games": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goals": "25:21",
-          "goalDifference": "+4",
-          "points": "2:0",
-          "own": false
-        },
-        {
-          "rank": 5,
           "team": "TvdH Oldenburg",
           "games": 2,
           "wins": 1,
@@ -63,6 +51,18 @@
           "losses": 1,
           "goals": "54:45",
           "goalDifference": "+9",
+          "points": "2:2",
+          "own": false
+        },
+        {
+          "rank": 5,
+          "team": "TV Neerstedt",
+          "games": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goals": "49:53",
+          "goalDifference": "-4",
           "points": "2:2",
           "own": false
         },
@@ -257,7 +257,7 @@
       "venue": "Oldenburg, Robert-Schumann-Halle",
       "home": "VfL Oldenburg II",
       "away": "TSG Hatten-Sandkrug",
-      "score": null,
+      "score": "0:0",
       "league": "Regionsliga weibl. Jugend D HR West",
       "isHome": false
     },
@@ -394,5 +394,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-22T00:46:12.380Z"
+  "updatedAt": "2026-11-22T12:16:44.598Z"
 }

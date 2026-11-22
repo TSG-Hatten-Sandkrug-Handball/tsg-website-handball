@@ -8,6 +8,30 @@
       "table": [
         {
           "rank": 1,
+          "team": "HG Jever/Schortens II",
+          "games": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals": "103:54",
+          "goalDifference": "+49",
+          "points": "6:0",
+          "own": false
+        },
+        {
+          "rank": 2,
+          "team": "HSG Varel",
+          "games": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals": "104:86",
+          "goalDifference": "+18",
+          "points": "6:0",
+          "own": false
+        },
+        {
+          "rank": 3,
           "team": "SV Eintracht Wiefelstede",
           "games": 2,
           "wins": 2,
@@ -15,30 +39,6 @@
           "losses": 0,
           "goals": "82:38",
           "goalDifference": "+44",
-          "points": "4:0",
-          "own": false
-        },
-        {
-          "rank": 2,
-          "team": "HG Jever/Schortens II",
-          "games": 2,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "goals": "74:33",
-          "goalDifference": "+41",
-          "points": "4:0",
-          "own": false
-        },
-        {
-          "rank": 3,
-          "team": "HSG Varel",
-          "games": 2,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "goals": "67:58",
-          "goalDifference": "+9",
           "points": "4:0",
           "own": false
         },
@@ -57,25 +57,25 @@
         {
           "rank": 5,
           "team": "SV Eintracht Wiefelstede II",
-          "games": 2,
+          "games": 3,
           "wins": 1,
           "draws": 0,
-          "losses": 1,
-          "goals": "55:60",
-          "goalDifference": "-5",
-          "points": "2:2",
+          "losses": 2,
+          "goals": "76:89",
+          "goalDifference": "-13",
+          "points": "2:4",
           "own": false
         },
         {
           "rank": 6,
           "team": "Harpstedter TB",
-          "games": 1,
+          "games": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "goals": "25:30",
-          "goalDifference": "-5",
-          "points": "0:2",
+          "losses": 2,
+          "goals": "53:67",
+          "goalDifference": "-14",
+          "points": "0:4",
           "own": false
         },
         {
@@ -371,5 +371,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-22T00:46:13.764Z"
+  "updatedAt": "2026-11-22T12:16:46.140Z"
 }
