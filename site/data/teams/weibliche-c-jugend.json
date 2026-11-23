@@ -20,30 +20,18 @@
         },
         {
           "rank": 2,
-          "team": "TS Woltmershausen",
-          "games": 6,
-          "wins": 5,
+          "team": "TV Neerstedt",
+          "games": 8,
+          "wins": 6,
           "draws": 0,
-          "losses": 1,
-          "goals": "180:134",
-          "goalDifference": "+46",
-          "points": "10:2",
+          "losses": 2,
+          "goals": "213:147",
+          "goalDifference": "+66",
+          "points": "12:4",
           "own": false
         },
         {
           "rank": 3,
-          "team": "TV Neerstedt",
-          "games": 7,
-          "wins": 5,
-          "draws": 0,
-          "losses": 2,
-          "goals": "184:120",
-          "goalDifference": "+64",
-          "points": "10:4",
-          "own": false
-        },
-        {
-          "rank": 4,
           "team": "TSV Ganderkesee",
           "games": 7,
           "wins": 5,
@@ -51,6 +39,18 @@
           "losses": 2,
           "goals": "201:152",
           "goalDifference": "+49",
+          "points": "10:4",
+          "own": false
+        },
+        {
+          "rank": 4,
+          "team": "TS Woltmershausen",
+          "games": 7,
+          "wins": 5,
+          "draws": 0,
+          "losses": 2,
+          "goals": "207:163",
+          "goalDifference": "+44",
           "points": "10:4",
           "own": false
         },
@@ -329,5 +329,5 @@
       "isHome": false
     }
   ],
-  "updatedAt": "2026-11-22T12:16:43.017Z"
+  "updatedAt": "2026-11-23T01:14:23.447Z"
 }

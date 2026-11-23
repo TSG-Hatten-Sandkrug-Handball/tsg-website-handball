@@ -20,6 +20,18 @@
         },
         {
           "rank": 2,
+          "team": "HC Bremen",
+          "games": 11,
+          "wins": 8,
+          "draws": 1,
+          "losses": 2,
+          "goals": "390:326",
+          "goalDifference": "+64",
+          "points": "17:5",
+          "own": false
+        },
+        {
+          "rank": 3,
           "team": "TV Dinklage",
           "games": 10,
           "wins": 8,
@@ -31,31 +43,31 @@
           "own": false
         },
         {
-          "rank": 3,
-          "team": "HC Bremen",
-          "games": 10,
-          "wins": 7,
-          "draws": 1,
-          "losses": 2,
-          "goals": "357:297",
-          "goalDifference": "+60",
-          "points": "15:5",
-          "own": false
-        },
-        {
           "rank": 4,
           "team": "TV Neerstedt",
-          "games": 10,
-          "wins": 7,
+          "games": 11,
+          "wins": 8,
           "draws": 0,
           "losses": 3,
-          "goals": "354:322",
-          "goalDifference": "+32",
-          "points": "14:6",
+          "goals": "390:353",
+          "goalDifference": "+37",
+          "points": "16:6",
           "own": false
         },
         {
           "rank": 5,
+          "team": "SG Bremen-Ost",
+          "games": 11,
+          "wins": 7,
+          "draws": 1,
+          "losses": 3,
+          "goals": "377:332",
+          "goalDifference": "+45",
+          "points": "15:7",
+          "own": false
+        },
+        {
+          "rank": 6,
           "team": "TuS Rotenburg",
           "games": 11,
           "wins": 7,
@@ -64,18 +76,6 @@
           "goals": "314:316",
           "goalDifference": "-2",
           "points": "14:8",
-          "own": false
-        },
-        {
-          "rank": 6,
-          "team": "SG Bremen-Ost",
-          "games": 10,
-          "wins": 6,
-          "draws": 1,
-          "losses": 3,
-          "goals": "331:304",
-          "goalDifference": "+27",
-          "points": "13:7",
           "own": false
         },
         {
@@ -117,25 +117,25 @@
         {
           "rank": 10,
           "team": "VfL Fredenbeck II",
-          "games": 10,
+          "games": 11,
           "wins": 4,
           "draws": 0,
-          "losses": 6,
-          "goals": "305:315",
-          "goalDifference": "-10",
-          "points": "8:12",
+          "losses": 7,
+          "goals": "334:348",
+          "goalDifference": "-14",
+          "points": "8:14",
           "own": false
         },
         {
           "rank": 11,
           "team": "HSG Delmenhorst",
-          "games": 10,
+          "games": 11,
           "wins": 2,
           "draws": 1,
-          "losses": 7,
-          "goals": "279:322",
-          "goalDifference": "-43",
-          "points": "5:15",
+          "losses": 8,
+          "goals": "310:358",
+          "goalDifference": "-48",
+          "points": "5:17",
           "own": false
         },
         {
@@ -165,13 +165,13 @@
         {
           "rank": 14,
           "team": "Wilhelmshavener HV II",
-          "games": 10,
+          "games": 11,
           "wins": 1,
           "draws": 0,
-          "losses": 9,
-          "goals": "297:358",
-          "goalDifference": "-61",
-          "points": "2:18",
+          "losses": 10,
+          "goals": "325:404",
+          "goalDifference": "-79",
+          "points": "2:20",
           "own": false
         }
       ]
@@ -480,5 +480,5 @@
     "VfL Fredenbeck II": "assets/img/crests/32448.png",
     "Wilhelmshavener HV II": "assets/img/crests/32625.png"
   },
-  "updatedAt": "2026-11-22T00:45:58.683Z"
+  "updatedAt": "2026-11-23T01:14:07.725Z"
 }
