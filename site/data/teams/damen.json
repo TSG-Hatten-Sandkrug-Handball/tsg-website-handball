@@ -57,25 +57,25 @@
         {
           "rank": 5,
           "team": "HSG Hude/Falkenburg II",
-          "games": 6,
-          "wins": 1,
+          "games": 7,
+          "wins": 2,
           "draws": 2,
           "losses": 3,
-          "goals": "131:144",
-          "goalDifference": "-13",
-          "points": "4:8",
+          "goals": "153:158",
+          "goalDifference": "-5",
+          "points": "6:8",
           "own": false
         },
         {
           "rank": 6,
           "team": "TS Woltmershausen II",
-          "games": 6,
+          "games": 7,
           "wins": 2,
           "draws": 0,
-          "losses": 4,
-          "goals": "131:154",
-          "goalDifference": "-23",
-          "points": "4:8",
+          "losses": 5,
+          "goals": "145:176",
+          "goalDifference": "-31",
+          "points": "4:10",
           "own": false
         },
         {
@@ -307,5 +307,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-23T01:14:10.882Z"
+  "updatedAt": "2026-11-25T13:52:41.972Z"
 }
