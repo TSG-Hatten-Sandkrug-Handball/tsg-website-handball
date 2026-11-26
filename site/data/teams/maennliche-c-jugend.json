@@ -44,27 +44,27 @@
         },
         {
           "rank": 4,
-          "team": "SV Rot-Weiß Damme",
+          "team": "TSG Hatten-Sandkrug",
           "games": 4,
           "wins": 3,
           "draws": 0,
           "losses": 1,
-          "goals": "158:120",
-          "goalDifference": "+38",
+          "goals": "131:109",
+          "goalDifference": "+22",
           "points": "6:2",
-          "own": false
+          "own": true
         },
         {
           "rank": 5,
-          "team": "TSG Hatten-Sandkrug",
-          "games": 3,
-          "wins": 2,
+          "team": "SV Rot-Weiß Damme",
+          "games": 5,
+          "wins": 3,
           "draws": 0,
-          "losses": 1,
-          "goals": "96:79",
-          "goalDifference": "+17",
-          "points": "4:2",
-          "own": true
+          "losses": 2,
+          "goals": "188:155",
+          "goalDifference": "+33",
+          "points": "6:4",
+          "own": false
         },
         {
           "rank": 6,
@@ -170,7 +170,7 @@
       "venue": "Sandkrug, SZ neu",
       "home": "TSG Hatten-Sandkrug",
       "away": "SV Rot-Weiß Damme",
-      "score": null,
+      "score": "35:30",
       "league": "Oberliga männliche Jugend C Staffel West",
       "isHome": true
     },
@@ -329,5 +329,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-23T01:14:16.079Z"
+  "updatedAt": "2026-11-26T13:32:12.744Z"
 }
