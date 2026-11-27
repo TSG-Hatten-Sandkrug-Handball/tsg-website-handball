@@ -186,17 +186,6 @@
       "isHome": false
     },
     {
-      "number": "22185",
-      "start": "2026-11-28T16:45:00+01:00",
-      "timeKnown": true,
-      "venue": "Oldenburg-Nadorst, Flötenteich-Schule",
-      "home": "Oldenburger TB",
-      "away": "TSG Hatten-Sandkrug",
-      "score": null,
-      "league": "Regionsliga Frauen West",
-      "isHome": false
-    },
-    {
       "number": "22189",
       "start": "2026-12-05T17:00:00+01:00",
       "timeKnown": true,
@@ -307,5 +296,5 @@
       "isHome": true
     }
   ],
-  "updatedAt": "2026-11-25T13:52:41.972Z"
+  "updatedAt": "2026-11-27T13:28:13.784Z"
 }

@@ -8,6 +8,18 @@
       "table": [
         {
           "rank": 1,
+          "team": "SV Eintracht Wiefelstede",
+          "games": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals": "128:73",
+          "goalDifference": "+55",
+          "points": "6:0",
+          "own": false
+        },
+        {
+          "rank": 2,
           "team": "HG Jever/Schortens II",
           "games": 3,
           "wins": 3,
@@ -19,7 +31,7 @@
           "own": false
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "HSG Varel",
           "games": 3,
           "wins": 3,
@@ -28,18 +40,6 @@
           "goals": "104:86",
           "goalDifference": "+18",
           "points": "6:0",
-          "own": false
-        },
-        {
-          "rank": 3,
-          "team": "SV Eintracht Wiefelstede",
-          "games": 2,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "goals": "82:38",
-          "goalDifference": "+44",
-          "points": "4:0",
           "own": false
         },
         {
@@ -57,13 +57,13 @@
         {
           "rank": 5,
           "team": "SV Eintracht Wiefelstede II",
-          "games": 3,
+          "games": 4,
           "wins": 1,
           "draws": 0,
-          "losses": 2,
-          "goals": "76:89",
-          "goalDifference": "-13",
-          "points": "2:4",
+          "losses": 3,
+          "goals": "111:135",
+          "goalDifference": "-24",
+          "points": "2:6",
           "own": false
         },
         {
@@ -215,7 +215,161 @@
       "score": "13:20",
       "league": "Regionsklasse weiblich Jugend D VR D",
       "isHome": false
+    },
+    {
+      "number": "28546",
+      "start": "2026-11-07T17:10:00+01:00",
+      "timeKnown": true,
+      "venue": "Wiefelstede, SZ",
+      "home": "SV Eintracht Wiefelstede",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": "35:20",
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": false
+    },
+    {
+      "number": "28541",
+      "start": "2026-11-15T16:30:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "HG Jever/Schortens II",
+      "score": "24:42",
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": true
+    },
+    {
+      "number": "28548",
+      "start": "2026-11-19T16:15:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "TSV Ganderkesee",
+      "score": "13:31",
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": true
+    },
+    {
+      "number": "28555",
+      "start": "2026-11-28T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Harpstedt, SZ",
+      "home": "Harpstedter TB",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": false
+    },
+    {
+      "number": "28558",
+      "start": "2026-12-13T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "HSG Varel",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": true
+    },
+    {
+      "number": "28561",
+      "start": "2026-12-19T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "HSG Altes Amt Friesoythe II",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": true
+    },
+    {
+      "number": "28565",
+      "start": "2027-01-09T16:25:00+01:00",
+      "timeKnown": true,
+      "venue": "Wiefelstede, SZ",
+      "home": "SV Eintracht Wiefelstede II",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": false
+    },
+    {
+      "number": "28570",
+      "start": "2027-01-24T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Schortens-Heidmühle, SZ",
+      "home": "HG Jever/Schortens II",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": false
+    },
+    {
+      "number": "28572",
+      "start": "2027-02-13T17:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "SV Eintracht Wiefelstede",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": true
+    },
+    {
+      "number": "28579",
+      "start": "2027-02-21T15:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Ganderkesee, SH (neu)",
+      "home": "TSV Ganderkesee",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": false
+    },
+    {
+      "number": "28582",
+      "start": "2027-03-07T14:45:00+01:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "Harpstedter TB",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": true
+    },
+    {
+      "number": "28586",
+      "start": "2027-03-14T12:00:00+01:00",
+      "timeKnown": true,
+      "venue": "Varel, SH Manfred-Schmidt",
+      "home": "HSG Varel",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": false
+    },
+    {
+      "number": "28591",
+      "start": "2027-04-11T14:00:00+02:00",
+      "timeKnown": true,
+      "venue": "Friesoythe, SH Großen Kamp",
+      "home": "HSG Altes Amt Friesoythe II",
+      "away": "TSG Hatten-Sandkrug II",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": false
+    },
+    {
+      "number": "28593",
+      "start": "2027-04-15T16:15:00+02:00",
+      "timeKnown": true,
+      "venue": "Sandkrug, SZ neu",
+      "home": "TSG Hatten-Sandkrug II",
+      "away": "SV Eintracht Wiefelstede II",
+      "score": null,
+      "league": "Regionsklasse weiblich Jugend D HR West A",
+      "isHome": true
     }
   ],
-  "updatedAt": "2026-11-26T13:32:21.895Z"
+  "updatedAt": "2026-11-27T13:28:24.142Z"
 }
